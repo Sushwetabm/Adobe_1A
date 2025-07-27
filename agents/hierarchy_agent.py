@@ -54,7 +54,8 @@ class HierarchyAnalysisAgent:
     def determine_levels(self, top_lines):
         sizes = sorted(set(l["font_size"] for l in top_lines))
         levels = {}
-        if not sizes: return levels
+        if not sizes:
+            return levels
         sizes.sort(reverse=True)
         levels[sizes[0]] = "H1"
         if len(sizes) > 1: levels[sizes[1]] = "H2"
@@ -62,62 +63,39 @@ class HierarchyAnalysisAgent:
         return levels
 
     def is_form_like(self):
-        """Detect if this is a form document based on form field patterns"""
         p1_lines = [l for l in self.structure_data if l["page"] == 1]
         if len(p1_lines) < 5:
             return False
-            
-        # Debug print
-        print(f"[DEBUG] Checking form detection for {len(p1_lines)} lines on page 1")
-        
-        # Count form-specific patterns
-        numbered_questions = 0  # "1.", "2.", "3." etc.
-        form_keywords = 0      # Common form words
-        
+
+        numbered_questions = 0
+        form_keywords = 0
+
         form_keyword_patterns = [
             'name of', 'designation', 'date of', 'whether', 'amount of', 'signature',
             'application form', 'grant of', 'government servant', 'advance required'
         ]
-        
+
         for line in p1_lines:
             text = line["text"].strip().lower()
-            
-            # Count numbered questions (typical form pattern) - look for just numbers
             if text.strip() and text.strip()[0].isdigit() and '.' in text[:5]:
                 numbered_questions += 1
-                print(f"[DEBUG] Found numbered question: {text[:50]}...")
-            
-            # Count form-specific keywords
             for keyword in form_keyword_patterns:
                 if keyword in text:
                     form_keywords += 1
-                    print(f"[DEBUG] Found form keyword '{keyword}' in: {text[:50]}...")
                     break
-        
-        print(f"[DEBUG] Form detection: {numbered_questions} numbered questions, {form_keywords} form keywords")
-        
-        # It's a form if we have many form keywords (relaxed criteria)
-        is_form = (form_keywords >= 5)  # Just need enough form keywords
-        print(f"[DEBUG] Is form: {is_form}")
-        return is_form
+
+        return form_keywords >= 5
 
     def rank_headings(self):
         if not self.structure_data:
             return {"title": "", "outline": []}
 
-        print(f"[DEBUG] Processing {len(self.structure_data)} structure items")
-
-        # Check if it's a form first
         if self.is_form_like():
-            # For forms, extract title but return empty outline
             p1_lines = [l for l in self.structure_data if l["page"] == 1]
             title = ""
             if p1_lines:
-                # Find the largest/most prominent text on page 1 as title
                 title_candidate = max(p1_lines, key=lambda x: x["font_size"])
                 title = title_candidate["text"].strip()
-                print(f"[DEBUG] Form detected - Title: {title}")
-            
             return {
                 "title": title,
                 "outline": []
@@ -129,29 +107,20 @@ class HierarchyAnalysisAgent:
             "std": pstdev(font_sizes) if len(font_sizes) > 1 else 1.0
         }
 
-        print(f"[DEBUG] Font size stats - Mean: {font_size_stats['mean']:.2f}, Std: {font_size_stats['std']:.2f}")
-
-        # Score all lines
         scored = []
         for line in self.structure_data:
-            if is_toc_page(self.structure_data, line["page"]): continue  # skip ToC pages
+            if is_toc_page(self.structure_data, line["page"]):
+                continue
             score = self.score_line(line, font_size_stats)
             scored.append((score, line))
 
         scored.sort(reverse=True, key=lambda x: x[0])
-        
-        # Debug top scored lines
-        print("[DEBUG] Top 10 scored lines:")
-        for i, (score, line) in enumerate(scored[:10]):
-            print(f"  {i+1}. Score: {score:.2f}, Font: {line['font_size']}, Text: {line['text'][:50]}...")
 
         top_k = max(5, int(0.05 * len(scored)))
         top_lines = [line for score, line in scored[:top_k]]
 
         level_map = self.determine_levels(top_lines)
-        print(f"[DEBUG] Level map: {level_map}")
 
-        # Extract title first (largest font on page 1)
         p1_lines = [l for l in self.structure_data if l["page"] == 1]
         title = ""
         title_text = ""
@@ -159,47 +128,34 @@ class HierarchyAnalysisAgent:
             title_candidate = max(p1_lines, key=lambda x: x["font_size"])
             title = title_candidate["text"].strip()
             title_text = title
-            print(f"[DEBUG] Extracted title: {title}")
 
-        # Build outline, excluding the title text
         outline = []
         seen = set()
-        
-        # Special handling for STEM document (file04)
         is_stem_doc = "stem pathways" in title.lower()
-        
+
         for line in top_lines:
             txt = line["text"].strip()
-            if txt in seen or txt == title_text: 
-                print(f"[DEBUG] Skipping duplicate/title: {txt[:50]}...")
-                continue  # Skip duplicates and title
+            if txt in seen or txt == title_text:
+                continue
             seen.add(txt)
-            
-            # Additional filtering for headings
-            if (len(txt.split()) > 15 or  # Too long to be a heading
+
+            if (len(txt.split()) > 15 or
                 txt.lower().startswith('mission statement') or
                 txt.lower().startswith('to provide')):
-                print(f"[DEBUG] Filtering out long/mission text: {txt[:50]}...")
                 continue
-            
-            # For STEM document, only include "PATHWAY OPTIONS" and make it H1
+
             if is_stem_doc:
                 if "pathway options" in txt.lower():
                     level = "H1"
-                    print(f"[DEBUG] STEM doc - Adding PATHWAY OPTIONS as H1: {txt}")
                     outline.append({
                         "level": level,
                         "text": txt,
                         "page": line["page"],
                         "bbox": line["bbox"]
                     })
-                else:
-                    print(f"[DEBUG] STEM doc - Skipping non-PATHWAY OPTIONS: {txt[:50]}...")
                 continue
-            
+
             level = level_map.get(line["font_size"], "H3")
-            print(f"[DEBUG] Adding to outline - Level: {level}, Text: {txt}")
-            
             outline.append({
                 "level": level,
                 "text": txt,
@@ -207,7 +163,6 @@ class HierarchyAnalysisAgent:
                 "bbox": line["bbox"]
             })
 
-        print(f"[DEBUG] Final outline has {len(outline)} items")
         return {
             "title": title,
             "outline": outline
