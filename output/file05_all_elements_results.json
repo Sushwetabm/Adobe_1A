@@ -1,0 +1,29 @@
+{
+  "document": "input/file05.pdf",
+  "total_pages": 1,
+  "processing_time": "0:00:08.765095",
+  "extraction_type": "all_elements",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "id": 1,
+          "type": "image",
+          "confidence": 0.943,
+          "text": "ADDRESS: \nTOPJUMP \n3735 PARKWAY \nPIGEON FORGE, TN 37863 \n(NEAR DIXIE STAMPEDE ON THE PARKWAY) \nRSVP: ----------------\nCLOSED TOED SHOES ARE REQUIRED FOR CLIMBING \nPARENTS OR GUARDIANS NOT ATTENDING THE PARTY, \nPLEASE VISIT TOPJUMP.COM TO FILL OUT WAIVER \nSO YOUR CHILD CAN ATTEND. \nHOPE To SEE You THERE! \nWWW.TOPJUMP.COM",
+          "bbox": [
+            8.037701606750488,
+            3.2917299270629883,
+            242.03781127929688,
+            501.73345947265625
+          ]
+        }
+      ],
+      "element_counts": {
+        "image": 1
+      }
+    }
+  ]
+}

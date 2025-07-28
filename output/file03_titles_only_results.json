@@ -1,0 +1,649 @@
+{
+  "document": "input/file03.pdf",
+  "total_pages": 14,
+  "processing_time": "0:00:52.127334",
+  "extraction_type": "titles_only",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "id": 2,
+          "type": "doc_title",
+          "confidence": 0.74,
+          "text": "RFP: R\nRFP: R\nRFP: R\nRFP: Request f\nquest f\nquest f\nquest for Pr\nr Pr\nr Pr\nr Proposal\noposal\noposal\noposal",
+          "bbox": [
+            69.00555419921875,
+            124.9739990234375,
+            371.0622863769531,
+            151.81007385253906
+          ]
+        },
+        {
+          "id": 3,
+          "type": "doc_title",
+          "confidence": 0.63,
+          "text": "To Present a Proposal for Developing\nthe Business Plan for the Ontario \nDigital Library \nMarch 21, 2003",
+          "bbox": [
+            99.26605224609375,
+            189.7078857421875,
+            363.01531982421875,
+            276.24676513671875
+          ]
+        }
+      ],
+      "element_counts": {
+        "doc_title": 2
+      }
+    },
+    {
+      "page_number": 2,
+      "elements": [
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.619,
+          "text": "Summary",
+          "bbox": [
+            71.79776763916016,
+            151.6774444580078,
+            118.39366149902344,
+            161.25209045410156
+          ]
+        },
+        {
+          "id": 14,
+          "type": "paragraph_title",
+          "confidence": 0.696,
+          "text": "Timeline:",
+          "bbox": [
+            72.38935852050781,
+            367.6116943359375,
+            106.36083984375,
+            374.694091796875
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 2
+      }
+    },
+    {
+      "page_number": 3,
+      "elements": [
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.796,
+          "text": "Background",
+          "bbox": [
+            71.84387969970703,
+            159.85086059570312,
+            130.06080627441406,
+            168.8794403076172
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 1
+      }
+    },
+    {
+      "page_number": 4,
+      "elements": [
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.758,
+          "text": "Equitable access for all Ontarians:",
+          "bbox": [
+            67.2374038696289,
+            266.49981689453125,
+            200.52859497070312,
+            273.99407958984375
+          ]
+        },
+        {
+          "id": 7,
+          "type": "paragraph_title",
+          "confidence": 0.808,
+          "text": "Shared decision-making and accountability:",
+          "bbox": [
+            67.59330749511719,
+            342.58251953125,
+            237.75633239746094,
+            350.5249328613281
+          ]
+        },
+        {
+          "id": 10,
+          "type": "paragraph_title",
+          "confidence": 0.814,
+          "text": "Shared governance structure:",
+          "bbox": [
+            67.69947052001953,
+            418.85296630859375,
+            183.82608032226562,
+            426.5533447265625
+          ]
+        },
+        {
+          "id": 13,
+          "type": "paragraph_title",
+          "confidence": 0.832,
+          "text": "Shared funding:",
+          "bbox": [
+            67.69515991210938,
+            474.6737365722656,
+            131.2587432861328,
+            482.5240478515625
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 4
+      }
+    },
+    {
+      "page_number": 5,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.849,
+          "text": "Local points of entry:",
+          "bbox": [
+            67.2822036743164,
+            55.68107223510742,
+            150.73422241210938,
+            63.9840202331543
+          ]
+        },
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.765,
+          "text": "Access:",
+          "bbox": [
+            67.3347396850586,
+            133.06568908691406,
+            102.2866439819336,
+            139.83453369140625
+          ]
+        },
+        {
+          "id": 8,
+          "type": "paragraph_title",
+          "confidence": 0.812,
+          "text": "Guidance and Advice:",
+          "bbox": [
+            67.45442962646484,
+            190.70327758789062,
+            158.53298950195312,
+            198.12921142578125
+          ]
+        },
+        {
+          "id": 9,
+          "type": "paragraph_title",
+          "confidence": 0.685,
+          "text": "Training:",
+          "bbox": [
+            68.35442352294922,
+            229.9011688232422,
+            106.26600646972656,
+            237.33355712890625
+          ]
+        },
+        {
+          "id": 12,
+          "type": "paragraph_title",
+          "confidence": 0.749,
+          "text": "Provincial Purchasing & Licensing:",
+          "bbox": [
+            67.23212432861328,
+            267.5496520996094,
+            211.0615997314453,
+            275.4622802734375
+          ]
+        },
+        {
+          "id": 14,
+          "type": "paragraph_title",
+          "confidence": 0.79,
+          "text": "Technological Support:",
+          "bbox": [
+            68.0631103515625,
+            296.4846496582031,
+            163.69158935546875,
+            304.5275573730469
+          ]
+        },
+        {
+          "id": 16,
+          "type": "paragraph_title",
+          "confidence": 0.711,
+          "text": "What could the ODL really mean?",
+          "bbox": [
+            66.70447540283203,
+            357.2933044433594,
+            204.24853515625,
+            365.36279296875
+          ]
+        },
+        {
+          "id": 17,
+          "type": "paragraph_title",
+          "confidence": 0.779,
+          "text": "For each Ontario citizen it could mean:",
+          "bbox": [
+            66.80459594726562,
+            377.5467529296875,
+            216.80455017089844,
+            385.104736328125
+          ]
+        },
+        {
+          "id": 22,
+          "type": "paragraph_title",
+          "confidence": 0.817,
+          "text": "For each Ontario student it could mean:",
+          "bbox": [
+            66.90927124023438,
+            483.73040771484375,
+            221.43252563476562,
+            491.0653991699219
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 9
+      }
+    },
+    {
+      "page_number": 6,
+      "elements": [
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.818,
+          "text": "For each Ontario library it could mean:",
+          "bbox": [
+            66.75492095947266,
+            84.5132064819336,
+            216.803955078125,
+            92.26896667480469
+          ]
+        },
+        {
+          "id": 6,
+          "type": "paragraph_title",
+          "confidence": 0.727,
+          "text": "For the Ontario government it could mean:",
+          "bbox": [
+            66.8473129272461,
+            171.71768188476562,
+            232.0110321044922,
+            179.30227661132812
+          ]
+        },
+        {
+          "id": 11,
+          "type": "paragraph_title",
+          "confidence": 0.646,
+          "text": "The Business Plan to be Developed",
+          "bbox": [
+            72.88432312011719,
+            352.7796630859375,
+            236.92727661132812,
+            361.4841613769531
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 3
+      }
+    },
+    {
+      "page_number": 7,
+      "elements": [
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.706,
+          "text": "Milestones",
+          "bbox": [
+            72.45018768310547,
+            207.76756286621094,
+            124.16119384765625,
+            216.3048858642578
+          ]
+        },
+        {
+          "id": 8,
+          "type": "paragraph_title",
+          "confidence": 0.622,
+          "text": "Approach and Specific Proposal Requirements",
+          "bbox": [
+            74.17284393310547,
+            325.6904602050781,
+            292.63140869140625,
+            334.8878479003906
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 2
+      }
+    },
+    {
+      "page_number": 8,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.629,
+          "text": "Evaluation and Awarding of Contract",
+          "bbox": [
+            71.80120086669922,
+            63.87809753417969,
+            245.4058074951172,
+            72.63451385498047
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 1
+      }
+    },
+    {
+      "page_number": 9,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.649,
+          "text": "Appendix A:  ODL Envisioned Phases & Funding",
+          "bbox": [
+            66.62841033935547,
+            83.67289733886719,
+            289.75390625,
+            93.01200103759766
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.734,
+          "text": "Phase I:  Business Planning",
+          "bbox": [
+            66.88605499267578,
+            106.4681625366211,
+            165.14236450195312,
+            113.82417297363281
+          ]
+        },
+        {
+          "id": 8,
+          "type": "paragraph_title",
+          "confidence": 0.838,
+          "text": "Phase II: Implementing and Transitioning",
+          "bbox": [
+            66.95950317382812,
+            256.1708068847656,
+            210.261962890625,
+            263.7778625488281
+          ]
+        },
+        {
+          "id": 11,
+          "type": "paragraph_title",
+          "confidence": 0.703,
+          "text": "Result: The ODL is implemented and validated",
+          "bbox": [
+            66.8255386352539,
+            317.67205810546875,
+            221.1767578125,
+            324.51776123046875
+          ]
+        },
+        {
+          "id": 14,
+          "type": "paragraph_title",
+          "confidence": 0.76,
+          "text": "Phase III: Operating and Growing the ODL",
+          "bbox": [
+            66.96437072753906,
+            467.05670166015625,
+            213.01980590820312,
+            474.8153991699219
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 5
+      }
+    },
+    {
+      "page_number": 10,
+      "elements": [
+        {
+          "id": 7,
+          "type": "table_title",
+          "confidence": 0.706,
+          "text": "OVERVIEW OF ODL FUNDING MODEL",
+          "bbox": [
+            186.4773406982422,
+            244.7346954345703,
+            319.8905334472656,
+            251.94711303710938
+          ]
+        }
+      ],
+      "element_counts": {
+        "table_title": 1
+      }
+    },
+    {
+      "page_number": 11,
+      "elements": [
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.884,
+          "text": "1. Preamble",
+          "bbox": [
+            67.24137878417969,
+            104.73854064941406,
+            109.3504867553711,
+            111.43380737304688
+          ]
+        },
+        {
+          "id": 5,
+          "type": "paragraph_title",
+          "confidence": 0.881,
+          "text": "2. Terms of Reference",
+          "bbox": [
+            66.97947692871094,
+            166.0572967529297,
+            144.4774932861328,
+            172.7721405029297
+          ]
+        },
+        {
+          "id": 15,
+          "type": "paragraph_title",
+          "confidence": 0.874,
+          "text": "3. Membership",
+          "bbox": [
+            66.98969268798828,
+            368.1667785644531,
+            119.4994888305664,
+            375.2196960449219
+          ]
+        },
+        {
+          "id": 17,
+          "type": "paragraph_title",
+          "confidence": 0.801,
+          "text": "3.1 Schools:",
+          "bbox": [
+            71.35774230957031,
+            412.0769348144531,
+            113.92214965820312,
+            418.79254150390625
+          ]
+        },
+        {
+          "id": 19,
+          "type": "paragraph_title",
+          "confidence": 0.66,
+          "text": "3.2 Universities:",
+          "bbox": [
+            71.50675201416016,
+            447.260498046875,
+            125.0377426147461,
+            453.99700927734375
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 5
+      }
+    },
+    {
+      "page_number": 12,
+      "elements": [
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.87,
+          "text": "4. Appointment Criteria and Process",
+          "bbox": [
+            66.90258026123047,
+            125.69141387939453,
+            199.72828674316406,
+            132.86138916015625
+          ]
+        },
+        {
+          "id": 13,
+          "type": "paragraph_title",
+          "confidence": 0.885,
+          "text": "5.\nTerm",
+          "bbox": [
+            66.82933807373047,
+            274.53179931640625,
+            100.94654846191406,
+            281.4154357910156
+          ]
+        },
+        {
+          "id": 15,
+          "type": "paragraph_title",
+          "confidence": 0.867,
+          "text": "6.\nChair",
+          "bbox": [
+            66.8783950805664,
+            318.5359191894531,
+            101.27530670166016,
+            325.3672180175781
+          ]
+        },
+        {
+          "id": 19,
+          "type": "paragraph_title",
+          "confidence": 0.883,
+          "text": "7. Meetings",
+          "bbox": [
+            67.03062438964844,
+            417.0556640625,
+            113.94817352294922,
+            424.4256286621094
+          ]
+        },
+        {
+          "id": 21,
+          "type": "paragraph_title",
+          "confidence": 0.847,
+          "text": "8. Lines of Accountability and Communication",
+          "bbox": [
+            66.6973876953125,
+            460.97357177734375,
+            233.9991912841797,
+            468.377197265625
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 5
+      }
+    },
+    {
+      "page_number": 13,
+      "elements": [
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.801,
+          "text": "9.\nFinancial and Administrative Policies",
+          "bbox": [
+            66.59528350830078,
+            107.64435577392578,
+            210.4565887451172,
+            114.67900848388672
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 1
+      }
+    },
+    {
+      "page_number": 14,
+      "elements": [
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.84,
+          "text": "1. Reference Resources",
+          "bbox": [
+            72.20191955566406,
+            157.0411376953125,
+            151.0717315673828,
+            164.11781311035156
+          ]
+        },
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.832,
+          "text": "2. Subject Guides",
+          "bbox": [
+            71.56275939941406,
+            323.9070739746094,
+            130.05203247070312,
+            331.5187683105469
+          ]
+        },
+        {
+          "id": 6,
+          "type": "paragraph_title",
+          "confidence": 0.824,
+          "text": "3. Educational tool-kits",
+          "bbox": [
+            71.56291198730469,
+            429.7860107421875,
+            145.66226196289062,
+            436.6482238769531
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 3
+      }
+    }
+  ]
+}

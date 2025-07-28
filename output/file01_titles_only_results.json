@@ -1,0 +1,29 @@
+{
+  "document": "input/file01.pdf",
+  "total_pages": 1,
+  "processing_time": "0:00:35.666664",
+  "extraction_type": "titles_only",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "id": 1,
+          "type": "table_title",
+          "confidence": 0.655,
+          "text": "Application form for grant of LTC advance",
+          "bbox": [
+            151.36032104492188,
+            81.122802734375,
+            330.74920654296875,
+            90.32272338867188
+          ]
+        }
+      ],
+      "element_counts": {
+        "table_title": 1
+      }
+    }
+  ]
+}

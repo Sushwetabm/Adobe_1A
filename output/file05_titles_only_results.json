@@ -1,0 +1,14 @@
+{
+  "document": "input/file05.pdf",
+  "total_pages": 1,
+  "processing_time": "0:00:08.765112",
+  "extraction_type": "titles_only",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [],
+      "element_counts": {}
+    }
+  ]
+}
