@@ -24,6 +24,9 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# After system/package installs...
+COPY PP-DocLayout-L /root/.paddlex/official_models/PP-DocLayout-L
+
 # Copy source code
 COPY . .
 
@@ -106,3 +109,4 @@ CMD ["python", "extract_outline.py"]
 # RUN python -c "import fitz, langdetect, regex; print('All dependencies OK')"
 
 # ENTRYPOINT ["python", "extract_outline.py"]
+

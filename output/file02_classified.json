@@ -1,0 +1,852 @@
+[
+  {
+    "text": "Overview",
+    "page": 1,
+    "level": "title",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      191.77528381347656,
+      145.9652862548828,
+      274.0600891113281,
+      161.5310516357422
+    ],
+    "type": "doc_title",
+    "score": 0.88,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.30000000000000004,
+      "position_bonus": 0.35,
+      "page_bonus": 0.2,
+      "type_bonus": 0.3,
+      "text_pattern_bonus": 0.1
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Foundation Level Extensions",
+    "page": 1,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      106.07173919677734,
+      188.28912353515625,
+      360.08233642578125,
+      204.8820343017578
+    ],
+    "type": "doc_title",
+    "score": 0.629641,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.30000000000000004,
+      "position_bonus": 0.19964082160043614,
+      "page_bonus": 0.2,
+      "type_bonus": 0.3,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "International Software Testing Qualifications Board",
+    "page": 1,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      78.27743530273438,
+      356.07513427734375,
+      388.4320983886719,
+      369.7513427734375
+    ],
+    "type": "doc_title",
+    "score": 0.43,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.30000000000000004,
+      "position_bonus": 0.0,
+      "page_bonus": 0.2,
+      "type_bonus": 0.3,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Revision History",
+    "page": 3,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.570865631103516,
+      83.65383911132812,
+      149.92213439941406,
+      95.95191192626953
+    ],
+    "type": "paragraph_title",
+    "score": 0.73,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.3,
+      "page_bonus": 0.1,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Overview",
+    "page": 4,
+    "level": "h3",
+    "font_size": 12.0,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      74.42400360107422,
+      41.58000183105469,
+      127.78800964355469,
+      54.96000289916992
+    ],
+    "type": "",
+    "score": 0.38,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.30000000000000004,
+      "position_bonus": 0.35,
+      "page_bonus": 0.0,
+      "type_bonus": 0.0,
+      "text_pattern_bonus": 0.1
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Table of Contents",
+    "page": 4,
+    "level": "h1",
+    "font_size": 15.960000038146973,
+    "bold": true,
+    "italic": false,
+    "bbox": [
+      70.94400024414062,
+      108.93620300292969,
+      208.75860595703125,
+      126.73160552978516
+    ],
+    "type": "",
+    "score": 0.7,
+    "feature_breakdown": {
+      "font_size_cluster": 0.4,
+      "font_size_norm": 0.25,
+      "bold": 0.2,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.30000000000000004,
+      "position_bonus": 0.0,
+      "page_bonus": 0.0,
+      "type_bonus": 0.0,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 0,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Acknowledgements",
+    "page": 5,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.545867919921875,
+      84.00035095214844,
+      159.08316040039062,
+      95.9312515258789
+    ],
+    "type": "paragraph_title",
+    "score": 0.63,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.3,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "1. Introduction to the Foundation Level Extensions",
+    "page": 6,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      51.50978469848633,
+      94.37688446044922,
+      351.92755126953125,
+      105.40301513671875
+    ],
+    "type": "paragraph_title",
+    "score": 0.75,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.1,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.3,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.1
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2. Introduction to Foundation Level Agile Tester Extension",
+    "page": 7,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      50.8743782043457,
+      94.25403594970703,
+      395.9991149902344,
+      105.5948486328125
+    ],
+    "type": "paragraph_title",
+    "score": 0.8,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.1,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.35,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.1
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2.1 Intended Audience",
+    "page": 7,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.069515228271484,
+      166.4515838623047,
+      163.73826599121094,
+      176.00070190429688
+    ],
+    "type": "paragraph_title",
+    "score": 0.581763,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.20176348569926167,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2.2 Career Paths for Testers",
+    "page": 7,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      51.942039489746094,
+      370.2692565917969,
+      191.51600646972656,
+      379.9385986328125
+    ],
+    "type": "paragraph_title",
+    "score": 0.365589,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.06558913671359651,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2.3 Learning Objectives",
+    "page": 7,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.03680419921875,
+      468.4391784667969,
+      169.2201690673828,
+      479.0285339355469
+    ],
+    "type": "paragraph_title",
+    "score": 0.38,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.0,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2.4 Entry Requirements",
+    "page": 8,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      51.98586654663086,
+      120.31111145019531,
+      169.22610473632812,
+      130.89495849609375
+    ],
+    "type": "paragraph_title",
+    "score": 0.73,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.35,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2.5 Structure and Course Duration",
+    "page": 8,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      51.99708938598633,
+      166.19532775878906,
+      219.98377990722656,
+      176.265380859375
+    ],
+    "type": "paragraph_title",
+    "score": 0.3,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.0,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "2.6 Keeping It Current",
+    "page": 9,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      51.97190856933594,
+      102.81710815429688,
+      162.0618438720703,
+      113.29217529296875
+    ],
+    "type": "paragraph_title",
+    "score": 0.68,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.3,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "3. Overview of the Foundation Level Extension – Agile Tester\nSyllabus",
+    "page": 10,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      50.894630432128906,
+      91.26529693603516,
+      413.4618835449219,
+      119.02642059326172
+    ],
+    "type": "doc_title",
+    "score": 0.95,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.1,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.1,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.35,
+      "page_bonus": 0.0,
+      "type_bonus": 0.3,
+      "text_pattern_bonus": 0.1
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "3.1 Business Outcomes",
+    "page": 10,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.41438293457031,
+      143.5948028564453,
+      169.58216857910156,
+      153.09768676757812
+    ],
+    "type": "paragraph_title",
+    "score": 0.590774,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.2107741166163563,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "An Agile Tester can…",
+    "page": 10,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      51.777950286865234,
+      187.41668701171875,
+      128.09056091308594,
+      194.92486572265625
+    ],
+    "type": "paragraph_title",
+    "score": 0.427925,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.17792549541705213,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "3.2 Content",
+    "page": 10,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.44554138183594,
+      407.44921875,
+      112.24589538574219,
+      417.2724609375
+    ],
+    "type": "paragraph_title",
+    "score": 0.39299,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.012990430987037171,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Chapter 1: Agile Software Development",
+    "page": 10,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.62515640258789,
+      424.7791748046875,
+      188.81056213378906,
+      432.5955810546875
+    ],
+    "type": "paragraph_title",
+    "score": 0.38,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.0,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.05
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Chapter 2: Fundamental Agile Testing Principles, Practices, and Processes",
+    "page": 11,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.024112701416016,
+      82.871826171875,
+      309.0384826660156,
+      90.557861328125
+    ],
+    "type": "paragraph_title",
+    "score": 0.6,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.1,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.35,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.05
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "Chapter 3: Agile Testing Methods, Techniques, and Tools",
+    "page": 11,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.04069519042969,
+      201.07061767578125,
+      249.68824768066406,
+      208.07861328125
+    ],
+    "type": "paragraph_title",
+    "score": 0.3,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.0,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.0,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.05
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "4. References",
+    "page": 12,
+    "level": "h1",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.265403747558594,
+      94.4745864868164,
+      136.86666870117188,
+      105.4389877319336
+    ],
+    "type": "paragraph_title",
+    "score": 0.78,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.1,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.35,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "4.1 Trademarks",
+    "page": 12,
+    "level": "h2",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.643367767333984,
+      131.2853546142578,
+      131.77239990234375,
+      141.350341796875
+    ],
+    "type": "paragraph_title",
+    "score": 0.539806,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.08,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.15980647744610946,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  },
+  {
+    "text": "4.2 Documents and Web Sites",
+    "page": 12,
+    "level": "h3",
+    "font_size": 12,
+    "bold": false,
+    "italic": false,
+    "bbox": [
+      52.54900360107422,
+      196.50732421875,
+      201.6534423828125,
+      206.65609741210938
+    ],
+    "type": "paragraph_title",
+    "score": 0.3,
+    "feature_breakdown": {
+      "font_size_cluster": 0.0,
+      "font_size_norm": 0.0,
+      "bold": 0.0,
+      "italic_penalty": 0.0,
+      "length_bonus": 0.15,
+      "caps_bonus": 0.0,
+      "numbering_bonus": 0.05,
+      "indent_penalty": -0.0,
+      "position_bonus": 0.0,
+      "page_bonus": 0.0,
+      "type_bonus": 0.1,
+      "text_pattern_bonus": 0.0
+    },
+    "debug_info": {
+      "cluster_rank": 1,
+      "total_clusters": 2
+    }
+  }
+]
