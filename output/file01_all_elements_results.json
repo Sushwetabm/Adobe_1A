@@ -1,0 +1,80 @@
+{
+  "document": "input/file01.pdf",
+  "total_pages": 1,
+  "processing_time": "0:00:35.666648",
+  "extraction_type": "all_elements",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "id": 1,
+          "type": "table_title",
+          "confidence": 0.655,
+          "text": "Application form for grant of LTC advance",
+          "bbox": [
+            151.36032104492188,
+            81.122802734375,
+            330.74920654296875,
+            90.32272338867188
+          ]
+        },
+        {
+          "id": 2,
+          "type": "table",
+          "confidence": 0.991,
+          "text": "1. \nName of the Government Servant \n2. \nDesignation \n3. \nDate of entering the Central Government \nService \n4. \nPAY + SI + NPA \n5. \nWhether permanent or temporary \n6. \nHome Town as recorded in the Service Book \n7. \nWhether wife / husband is employed and if \nso whether entitled to LTC \n8. \nWhether the concession is to be availed for \nvisiting home town and if so block for which \nLTC is to be availed. \n9. \n(a) If the concession is to visit anywhere in \nIndia, the place to be visited. \n(b) Block for which to be availed. \n10. \nSingle \nrail \nfare/bus \nfare \nfrom \nthe \nheadquarters to home town/place of visit by \nshortest route. \n11. \nPersons in respect of whom LTC is proposed to be availed. \nS.No \nName \nAge \nRelationship \n1. \n2. \n3. \n4. \n5. \n6. \n12. Amount of advance required. \nRs.",
+          "bbox": [
+            48.803646087646484,
+            100.30659484863281,
+            435.6412048339844,
+            446.7308654785156
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.893,
+          "text": "I declare that the particulars furnished above are true and correct to the best of my knowledge.  I\nundertake to produce the tickets for the outward journey within ten days of receipt of the advance.",
+          "bbox": [
+            51.40248489379883,
+            456.6571350097656,
+            435.56756591796875,
+            473.01385498046875
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.897,
+          "text": "In the event of cancellation of the journey or if I fail to produce the tickets within ten days of receipt of\nadvance, I undertake to refund the entire advance in one lump sum.",
+          "bbox": [
+            51.00761795043945,
+            483.5787353515625,
+            435.5887756347656,
+            500.1805725097656
+          ]
+        },
+        {
+          "id": 5,
+          "type": "footer",
+          "confidence": 0.827,
+          "text": "Signature of Government Servant.",
+          "bbox": [
+            306.8817138671875,
+            528.2577514648438,
+            434.221923828125,
+            535.5556030273438
+          ]
+        }
+      ],
+      "element_counts": {
+        "table_title": 1,
+        "table": 1,
+        "text": 2,
+        "footer": 1
+      }
+    }
+  ]
+}

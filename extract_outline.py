@@ -145,6 +145,7 @@ from agents.validation_agent import ValidationAgent
 from agents.TitleClassifier import AdvancedTitleClassifier   
 from utils.helpers import get_pdf_files, log
 
+
 INPUT_DIR = "input"
 OUTPUT_DIR = "output"
 
@@ -185,12 +186,30 @@ def extract_structure_for_all_pdfs(pdf_files):
                 continue
 
             structure_agent = StructureAnalysisAgent(all_elements_path, file_path)
-            structure_data = structure_agent.extract_structure()
+            structure_data, page_sources = structure_agent.extract_structure()
             
 
             # Classification step
-            classifier = AdvancedTitleClassifier(structure_data,max_levels=4)
-            classified_titles = classifier.classify()
+            if page_sources == "doc_title":
+                classifier = AdvancedTitleClassifier(structure_data, max_levels=4)
+                classified_titles = classifier.classify()
+
+            else:
+                visual_agent = VisualAnalysisAgent(structure_data)
+                visual_features = visual_agent.analyze_visual()
+
+
+                text_agent = TextAnalysisAgent(structure_data)
+                text_features = text_agent.analyze_text()
+
+
+                hierarchy_agent = HierarchyAgent(structure_data, visual_features, text_features)
+                analysis = hierarchy_agent.rank_headings()
+                headings = analysis["outline"]
+
+
+                validation_agent = ValidationAgent(headings, structure_data)
+                classified_titles = validation_agent.validate()
 
             output_path = os.path.join(OUTPUT_DIR, filename.replace(".pdf", "_classified.json"))
             with open(output_path, "w", encoding="utf-8") as f:

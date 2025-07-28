@@ -44,7 +44,7 @@ def process_single_image_optimized(img_path):
 
 
 class FastPDFProcessor:
-    def __init__(self, max_workers=6):  # Conservative worker count
+    def __init__(self, max_workers=4):  # Conservative worker count
         self.layout_model = None
         self.max_workers = max_workers
 
@@ -173,7 +173,7 @@ class FastPDFProcessor:
                     coordinate = box.get('coordinate', [0, 0, 0, 0])
 
                     # ONLY process title elements
-                    if label in ['doc_title', 'paragraph_title'] and score >= 0.6:
+                    if label in ['doc_title', 'paragraph_title','table_title'] and score >= 0.6:
                         result["element_counts"][label] = result["element_counts"].get(label, 0) + 1
 
                         text_content = ""
@@ -226,12 +226,9 @@ class FastPDFProcessor:
         print("⚡ Starting dual output processing...")
         start_time = datetime.now()
 
-        os.makedirs(output_dir, exist_ok=True)
-        print(f"📁 Created/verified output directory lalalalalalalla: {output_dir}")
-
         # Step 1: Convert PDF to images (keep sequential - it's fast)
         image_paths, pdf_doc = self.convert_pdf_to_images_fast(pdf_path, dpi=dpi)
-        
+        os.makedirs(output_dir, exist_ok=True)
 
         # Step 2: Parallel AI processing (ONLY change from original)
         layout_results = self.process_images_simple_parallel(image_paths)
@@ -290,8 +287,6 @@ class FastPDFProcessor:
 
         all_elements_file = os.path.join(output_dir, f"{pdf_filename}_all_elements_results.json")
         titles_only_file = os.path.join(output_dir, f"{pdf_filename}_titles_only_results.json")
-
-        
 
         with open(all_elements_file, "w", encoding="utf-8") as f:
             json.dump(final_all_elements, f, indent=2, ensure_ascii=False)

@@ -1,0 +1,211 @@
+{
+  "document": "input/file04.pdf",
+  "total_pages": 1,
+  "processing_time": "0:00:11.407734",
+  "extraction_type": "all_elements",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.816,
+          "text": "Mission Statement:  To provide PTHSD high school students with the opportunity to \nconcentrate their studies, beyond those required in high school, in the areas of science, \ntechnology, engineering, and mathematics, and expose students to relevant real world \nexperiences through project work, conferences and presentations to enhance their high school\nexperience.",
+          "bbox": [
+            58.4226188659668,
+            68.43682098388672,
+            413.6214904785156,
+            123.85716247558594
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.616,
+          "text": "Goals:\n• Inspire keen interest in mathematics, science, engineering, and\ntechnology, develop strong scholarship in the subject and \npromote the enjoyment of these studies in high school.\n• Expose students to potential career opportunities in the field.\n• Encourage students to pursue higher education and major in \nSTEM careers.\n• Promote interactions with STEM professionals to learn about \nfuture opportunities.\n• Support field experiences connected to the world outside of \nthe school building.\n• Signal to employers, universities, training programs, and \nmilitary that a student has completed a comprehensive course \nof study in a specialized area.\n• Cultivate transferable work habits such as perseverance, goal \nsetting, and self-direction.",
+          "bbox": [
+            30.7777099609375,
+            140.39453125,
+            259.8191833496094,
+            313.67626953125
+          ]
+        },
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.59,
+          "text": "Goals:",
+          "bbox": [
+            33.51204299926758,
+            140.72817993164062,
+            63.109127044677734,
+            151.0365447998047
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.553,
+          "text": "• Inspire keen interest in mathematics, science, engineering, and\ntechnology, develop strong scholarship in the subject and \npromote the enjoyment of these studies in high school.",
+          "bbox": [
+            31.860292434692383,
+            160.60342407226562,
+            260.63690185546875,
+            190.5972137451172
+          ]
+        },
+        {
+          "id": 5,
+          "type": "image",
+          "confidence": 0.902,
+          "text": "",
+          "bbox": [
+            276.7055969238281,
+            183.8708953857422,
+            451.3326416015625,
+            284.4905090332031
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.563,
+          "text": "• Expose students to potential career opportunities in the field.\n• Encourage students to pursue higher education and major in \nSTEM careers.",
+          "bbox": [
+            31.14603614807129,
+            192.0213623046875,
+            254.5718231201172,
+            220.49429321289062
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.574,
+          "text": "• Promote interactions with STEM professionals to learn about\nfuture opportunities.",
+          "bbox": [
+            32.42245864868164,
+            222.46759033203125,
+            253.00802612304688,
+            240.67091369628906
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.59,
+          "text": "• Support field experiences connected to the world outside of \nthe school building.",
+          "bbox": [
+            32.46859359741211,
+            243.4804229736328,
+            251.42828369140625,
+            261.77276611328125
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.546,
+          "text": "• Signal to employers, universities, training programs, and \nmilitary that a student has completed a comprehensive course\nof study in a specialized area.",
+          "bbox": [
+            33.1689567565918,
+            264.060791015625,
+            255.9930877685547,
+            293.75360107421875
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.574,
+          "text": "• Cultivate transferable work habits such as perseverance, goal\nsetting, and self-direction.",
+          "bbox": [
+            31.580381393432617,
+            294.9051818847656,
+            253.63133239746094,
+            312.9551696777344
+          ]
+        },
+        {
+          "id": 11,
+          "type": "paragraph_title",
+          "confidence": 0.578,
+          "text": "PATHWAY OPTIONS",
+          "bbox": [
+            182.75033569335938,
+            335.253173828125,
+            278.6695556640625,
+            346.69915771484375
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.673,
+          "text": "DISTINCTION PATHWAY\n●\n4 credits of Math - At least one math \ncourse should be an AP Math class.\n●\n4 credits of Science- At least one \nscience course should be an AP \nScience class.\n●\n4 credits of STEM-designated electives \n- One must be a Computer \nScience/Technology Class\n●\nMaintain an overall 3.5 GPA \n●\nParticipate in a minimum of 3 STEM \npresentations/conferences a year with a\nrequired minimum total of 12 \npresentations/conferences throughout \nthe 4 years.\n●\nJoin and actively participate in a \nSTEM-related extracurricular activity or \nclub every year of attendance. \n●\nEither participate in an internship or \ndesign and implement a community \nimpact project.",
+          "bbox": [
+            243.1400604248047,
+            356.0678405761719,
+            412.1101989746094,
+            575.0525512695312
+          ]
+        },
+        {
+          "id": 13,
+          "type": "paragraph_title",
+          "confidence": 0.567,
+          "text": "REGULAR PATHWAY",
+          "bbox": [
+            88.73709869384766,
+            356.5782470703125,
+            185.13262939453125,
+            366.8011779785156
+          ]
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "confidence": 0.572,
+          "text": "●\n4 credits of Math\n●\n4 credits of Science\n●\n4 credits of STEM-designated electives\n●\nMaintain an overall 2.85 GPA\n●\nParticipate in a minimum of 3 STEM \npresentations/conferences each year \nwith a required minimum total of 12 \npresentations/conferences throughout \nthe 4 years. *\n●\nJoin and actively participate in a \nSTEM-related extracurricular activity or \nclub every year of attendance. -",
+          "bbox": [
+            55.53300094604492,
+            381.9117736816406,
+            222.02859497070312,
+            506.3799133300781
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.573,
+          "text": "●\nJoin and actively participate in a \nSTEM-related extracurricular activity or \nclub every year of attendance. -",
+          "bbox": [
+            56.610965728759766,
+            476.0885314941406,
+            221.8463897705078,
+            505.3275451660156
+          ]
+        },
+        {
+          "id": 16,
+          "type": "text",
+          "confidence": 0.526,
+          "text": "●\nJoin and actively participate in a \nSTEM-related extracurricular activity or\nclub every year of attendance.",
+          "bbox": [
+            244.5232391357422,
+            514.0271606445312,
+            409.4111633300781,
+            542.8189697265625
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 12,
+        "paragraph_title": 3,
+        "image": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,2902 @@
+{
+  "document": "input/file03.pdf",
+  "total_pages": 14,
+  "processing_time": "0:00:52.127291",
+  "extraction_type": "all_elements",
+  "dpi": 55,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "id": 1,
+          "type": "header",
+          "confidence": 0.699,
+          "text": "Ontario’s Libraries \nWorking Together",
+          "bbox": [
+            70.97215270996094,
+            57.50569152832031,
+            178.493408203125,
+            87.97777557373047
+          ]
+        },
+        {
+          "id": 2,
+          "type": "doc_title",
+          "confidence": 0.74,
+          "text": "RFP: R\nRFP: R\nRFP: R\nRFP: Request f\nquest f\nquest f\nquest for Pr\nr Pr\nr Pr\nr Proposal\noposal\noposal\noposal",
+          "bbox": [
+            69.00555419921875,
+            124.9739990234375,
+            371.0622863769531,
+            151.81007385253906
+          ]
+        },
+        {
+          "id": 3,
+          "type": "doc_title",
+          "confidence": 0.63,
+          "text": "To Present a Proposal for Developing\nthe Business Plan for the Ontario \nDigital Library \nMarch 21, 2003",
+          "bbox": [
+            99.26605224609375,
+            189.7078857421875,
+            363.01531982421875,
+            276.24676513671875
+          ]
+        },
+        {
+          "id": 4,
+          "type": "doc_title",
+          "confidence": 0.509,
+          "text": "To Present a Proposal for Developing\nthe Business Plan for the Ontario \nDigital Library",
+          "bbox": [
+            99.11698150634766,
+            189.7706298828125,
+            363.2264099121094,
+            255.64849853515625
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.52,
+          "text": "March 21, 2003",
+          "bbox": [
+            180.66204833984375,
+            261.7784118652344,
+            285.69061279296875,
+            276.3197021484375
+          ]
+        },
+        {
+          "id": 6,
+          "type": "image",
+          "confidence": 0.832,
+          "text": "",
+          "bbox": [
+            189.76174926757812,
+            294.11529541015625,
+            318.8229675292969,
+            486.9052429199219
+          ]
+        },
+        {
+          "id": 7,
+          "type": "image",
+          "confidence": 0.721,
+          "text": "",
+          "bbox": [
+            189.86671447753906,
+            295.2486572265625,
+            318.66595458984375,
+            484.82952880859375
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.742,
+          "text": "The Ontario Digital Library will make Ontario a better place to study, work and live by ensuring that \nall Ontario citizens have access to the knowledge and learning supports needed to be life-long \nlearners and effective contributors towards Ontario’s prosperity.",
+          "bbox": [
+            69.1956558227539,
+            531.492431640625,
+            409.6166076660156,
+            560.9656372070312
+          ]
+        }
+      ],
+      "element_counts": {
+        "header": 1,
+        "doc_title": 3,
+        "text": 2,
+        "image": 2
+      }
+    },
+    {
+      "page_number": 2,
+      "elements": [
+        {
+          "id": 1,
+          "type": "doc_title",
+          "confidence": 0.514,
+          "text": "Ontario’s Digital Library \nA Critical Component for Implementing Ontario’s Road Map to\nProsperity Strategy",
+          "bbox": [
+            66.2054443359375,
+            71.49031066894531,
+            366.84423828125,
+            119.32759094238281
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.511,
+          "text": "Ontario’s Digital Library",
+          "bbox": [
+            66.47835540771484,
+            71.86100006103516,
+            240.77236938476562,
+            87.9134521484375
+          ]
+        },
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.619,
+          "text": "Summary",
+          "bbox": [
+            71.79776763916016,
+            151.6774444580078,
+            118.39366149902344,
+            161.25209045410156
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.739,
+          "text": "The purpose of this Request for Proposal (RFP) is to invite firms and/or consultants to\npresent a proposal for developing the business plan for the Ontario Digital Library (ODL).\nThe ODL will deliver high-quality library electronic content to all Ontario residents in order to\nassist people as they learn, work, and enhance their quality of life. The business plan to be\ndeveloped is to document and clearly communicate:",
+          "bbox": [
+            70.455810546875,
+            174.03123474121094,
+            398.5942687988281,
+            221.9360809326172
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.589,
+          "text": "how the ODL will be implemented, including the timeline",
+          "bbox": [
+            98.23310089111328,
+            232.38377380371094,
+            299.0300598144531,
+            240.63192749023438
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.512,
+          "text": "the financial plan for the implementation",
+          "bbox": [
+            98.49693298339844,
+            241.61903381347656,
+            242.93861389160156,
+            249.39328002929688
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.638,
+          "text": "the financial plan for the first 2 operating years, including capital and operating costs,\nrevenues, etc.",
+          "bbox": [
+            98.03366088867188,
+            251.35049438476562,
+            397.810791015625,
+            268.5303649902344
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.558,
+          "text": "a financial forecast for the succeeding 2 operating years",
+          "bbox": [
+            98.51593017578125,
+            270.58770751953125,
+            298.9110412597656,
+            279.19268798828125
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.594,
+          "text": "g\np\ng y\nthe services and products to be delivered by the ODL",
+          "bbox": [
+            98.44298553466797,
+            280.078857421875,
+            289.3580627441406,
+            288.96820068359375
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.625,
+          "text": "how the ODL will operate and be managed following the implementation",
+          "bbox": [
+            98.55167388916016,
+            290.3398742675781,
+            356.53692626953125,
+            298.5682678222656
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.63,
+          "text": "p\ng\ng\np\nwho will be involved, and what their role/responsibility will be, for both the\nimplementation and operational stages",
+          "bbox": [
+            98.3346939086914,
+            299.22650146484375,
+            398.4165344238281,
+            317.6445617675781
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.583,
+          "text": "the marketing and communications plan for the ODL",
+          "bbox": [
+            98.6630630493164,
+            318.9897155761719,
+            285.6052551269531,
+            327.5556640625
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "confidence": 0.801,
+          "text": "This business plan must be completed and approved by the ODL Steering Committee no\nlater than September 30, 2003",
+          "bbox": [
+            70.8748550415039,
+            338.3190002441406,
+            398.470703125,
+            356.4078674316406
+          ]
+        },
+        {
+          "id": 14,
+          "type": "paragraph_title",
+          "confidence": 0.696,
+          "text": "Timeline:",
+          "bbox": [
+            72.38935852050781,
+            367.6116943359375,
+            106.36083984375,
+            374.694091796875
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.825,
+          "text": "Those firms/consultants intended to submit a proposal to this RFP must indicate their\nintention to do so in an e-mail to Michael Ridley (mridley@uoguelph.ca) by April 11th.",
+          "bbox": [
+            71.15777587890625,
+            385.3943176269531,
+            398.55474853515625,
+            403.7121276855469
+          ]
+        },
+        {
+          "id": 16,
+          "type": "text",
+          "confidence": 0.733,
+          "text": "Proposals may be e-mailed, mailed, couriered or faxed to: Larry Moore \n(lmoore@accessola.com), Executive Director, The Ontario Library Association, 100 Lombard\nSt., Suite 303, Toronto, ON  M5C 1M3. Proposals must be received by Noon on Monday, \nApril 21, 2003.",
+          "bbox": [
+            71.04269409179688,
+            414.31884765625,
+            396.9982604980469,
+            451.5331726074219
+          ]
+        },
+        {
+          "id": 17,
+          "type": "text",
+          "confidence": 0.535,
+          "text": "Proposals may be e-mailed, mailed, couriered or faxed to: Larry Moore",
+          "bbox": [
+            71.426513671875,
+            414.4940490722656,
+            324.10980224609375,
+            422.45843505859375
+          ]
+        },
+        {
+          "id": 18,
+          "type": "text",
+          "confidence": 0.815,
+          "text": "Those proposals that are short-listed will be invited to discuss their proposal during the week\nof April 28, 2003. No presentation will be expected. Firms or consultants invited to an\ninterview will be expected to discuss the project and their approach with the selection\ncommittee.",
+          "bbox": [
+            70.48648071289062,
+            462.4143371582031,
+            398.7475891113281,
+            499.1985778808594
+          ]
+        },
+        {
+          "id": 19,
+          "type": "text",
+          "confidence": 0.751,
+          "text": "Contracts with the firm/consultant will be signed the week of May 5, 2003 with the work to\ncommence as soon as possible thereafter.",
+          "bbox": [
+            70.58181762695312,
+            509.4097900390625,
+            398.67095947265625,
+            527.416259765625
+          ]
+        },
+        {
+          "id": 20,
+          "type": "number",
+          "confidence": 0.773,
+          "text": "2",
+          "bbox": [
+            394.15423583984375,
+            559.9345703125,
+            399.62713623046875,
+            565.408447265625
+          ]
+        },
+        {
+          "id": 21,
+          "type": "footer",
+          "confidence": 0.849,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.38861846923828,
+            560.4191284179688,
+            258.4671936035156,
+            566.2492065429688
+          ]
+        }
+      ],
+      "element_counts": {
+        "doc_title": 1,
+        "paragraph_title": 3,
+        "text": 15,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 3,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.932,
+          "text": "Please note that we reserve the right not to select any of the submitted proposals and may\nseek further response to these Terms of Reference.",
+          "bbox": [
+            71.27095794677734,
+            55.60530090332031,
+            398.2736511230469,
+            72.32048797607422
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.941,
+          "text": "If you require further information or have any questions, please contact Michael Ridley by e-\nmail (mridley@uoguelph.ca) only by 3:00 p.m. on Friday April 18th. All questions and\nresponses will be shared with those who have indicated that they will be submitting a\nproposal. Please note, that firms/consultants who have not indicated in an e-mail to Michael\nRidley by April 11th that they will be submitting a proposal will not receive any further\ninformation or question responses.",
+          "bbox": [
+            70.79805755615234,
+            83.47560119628906,
+            398.1960144042969,
+            140.7618865966797
+          ]
+        },
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.796,
+          "text": "Background",
+          "bbox": [
+            71.84387969970703,
+            159.85086059570312,
+            130.06080627441406,
+            168.8794403076172
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.966,
+          "text": "First, some background on the ODL. For the last two years the Ontario Library Association\nhas acted as a catalyst, bringing together the stakeholders needed to create the Ontario\nDigital Library (ODL). These stakeholders include Ontario’s 5000+ public libraries, university,\ncollege, and school libraries, as well as Ontario government ministries.",
+          "bbox": [
+            66.11372375488281,
+            182.42686462402344,
+            398.55926513671875,
+            219.61122131347656
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.974,
+          "text": "Libraries that serve very different clientele recognize that by working together they can create\nseamless access to quality electronic library services. Through the ODL, students will be\nable to explore a topic at school, use the same child-safe resources after school (either at\nhome or at a public library), enter college or university with a knowledge of how to use\nelectronic resources that are still available and then, after graduation, continue to use these\nskills and resources at work or at home.",
+          "bbox": [
+            66.05140686035156,
+            230.71873474121094,
+            398.3796691894531,
+            286.1060485839844
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.978,
+          "text": "We are moving into a period of convergence. With convergence we no longer have to license\ncommercial products as individual libraries or institutions. We can work together to spend our\nmoney wisely. The provincial government has made this possible by working hard to provide\nall Ontarians with a stable, high-speed communications infrastructure. While there is still a\ngreat deal of work needed to improve this infrastructure, libraries are beginning to plan how\nbest to exploit communications technology. We can reduce barriers to access and create the\ncontent infrastructure needed to support a knowledge society.",
+          "bbox": [
+            66.08470153808594,
+            297.6658020019531,
+            398.49224853515625,
+            363.669189453125
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.977,
+          "text": "The concept of an ODL is a key element in The Roadmap to Prosperity, a strategic plan to \nenvision and attain Ontario’s economic goal prepared by the Ontario Jobs and Investment \nBoard. The OJIB strategic plan recommends an electronic library to “connect students to new\nworkplaces, new sources of information and applied learning opportunities”. The ODL will do \nthat and much more. The ODL will connect students to electronic information, and will also \nleverage this investment to help connect all citizens to the electronic information they need as\nthey make decisions, solve problems and enhance their quality of life.",
+          "bbox": [
+            66.1537094116211,
+            374.6190185546875,
+            397.8014831542969,
+            440.72381591796875
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.956,
+          "text": "Libraries have long been a key delivery point for public services. The ODL will allow that\ndelivery point to move closer to citizens, into the smallest of libraries and even into living \nrooms.",
+          "bbox": [
+            66.30509948730469,
+            451.6407165527344,
+            378.2170104980469,
+            478.65582275390625
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.939,
+          "text": "Libraries have a long tradition of using a practical, consultative approach to solving problems,\nand of learning from others. The ODL is a very practical solution to various problems.",
+          "bbox": [
+            66.45929718017578,
+            490.5849914550781,
+            395.76068115234375,
+            508.55987548828125
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.953,
+          "text": "Jurisdiction-wide digital libraries are very practical and very real. The ODL we propose is \nleading edge for Ontario but several jurisdictions have forged the path with collaborative \ndigital libraries. We can learn from their experiences. For example, The Alberta Library (TAL)",
+          "bbox": [
+            66.37159729003906,
+            519.5864868164062,
+            395.2843322753906,
+            547.0597534179688
+          ]
+        },
+        {
+          "id": 11,
+          "type": "number",
+          "confidence": 0.772,
+          "text": "3",
+          "bbox": [
+            394.2837829589844,
+            560.1077270507812,
+            399.37188720703125,
+            565.6600952148438
+          ]
+        },
+        {
+          "id": 12,
+          "type": "footer",
+          "confidence": 0.849,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.36420440673828,
+            560.3448486328125,
+            258.507568359375,
+            566.173095703125
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 9,
+        "paragraph_title": 1,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 4,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.974,
+          "text": "was incorporated in 1997 as a province-wide library consortium. TAL works collaboratively \nwith its members to promote universal access to materials and resources in more than 250 \npublic, post-secondary, special, government and regional libraries. Unlike ODL, TAL does \nnot include elementary or secondary schools. However, the timeline and funding we are \nproposing for ODL is comparable to TAL‘s experience. TAL’s business planning took several\nyears. TAL’s implementation plan was supported by 8 million dollars in provincially shared \nfunding, spread over three years, later revised to 15 million dollars over 4 years. Not only is \nAlberta’s population 30% of Ontario’s, TAL does not include elementary or secondary \nschools as partners; it has 250 member libraries. ODL envisions universal access for all \n10,000,000 Ontarians, with more than 5000 Ontario libraries as partners. Although ODL can\nlearn from TAL’s practices, the scope of planning and implementing ODL is much larger than\nTAL.",
+          "bbox": [
+            65.99871063232422,
+            55.515586853027344,
+            395.3548583984375,
+            168.4273681640625
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.97,
+          "text": "The ODL will be a partnership-based organization providing seamless electronic information\nservices and resources to the citizens of Ontario. It will use local libraries as the entry point for\ncommon resources The ODL will recognize the unique responsibilities and needs of public\nlibraries, school libraries, college and university libraries and special libraries. The ODL\nenvisions a digital network of information resources, allowing members to collaborate when\nthere is mutual benefit and to support the common mandates of local libraries.",
+          "bbox": [
+            66.2376480102539,
+            180.54071044921875,
+            398.40618896484375,
+            237.00454711914062
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.772,
+          "text": "The principles which will define and guide the ODL are:",
+          "bbox": [
+            67.08782958984375,
+            247.69631958007812,
+            263.5335388183594,
+            255.50384521484375
+          ]
+        },
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.758,
+          "text": "Equitable access for all Ontarians:",
+          "bbox": [
+            67.2374038696289,
+            266.49981689453125,
+            200.52859497070312,
+            273.99407958984375
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.94,
+          "text": "We will bring consistent, high-quality electronic resources and services to 10 million\nOntario citizens",
+          "bbox": [
+            80.1512451171875,
+            285.62921142578125,
+            398.4281005859375,
+            302.6933288574219
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.942,
+          "text": "We will eliminate barriers to the access to information and create more consistent\nservices for library clients.",
+          "bbox": [
+            80.16204833984375,
+            314.7479553222656,
+            398.32073974609375,
+            331.10528564453125
+          ]
+        },
+        {
+          "id": 7,
+          "type": "paragraph_title",
+          "confidence": 0.808,
+          "text": "Shared decision-making and accountability:",
+          "bbox": [
+            67.59330749511719,
+            342.58251953125,
+            237.75633239746094,
+            350.5249328613281
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.94,
+          "text": "We will facilitate consensus among members regarding ODL’s portfolio of electronic\nlicenses and services",
+          "bbox": [
+            80.12406921386719,
+            361.6421203613281,
+            398.3026123046875,
+            378.9393310546875
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.947,
+          "text": "We will balance the interests and realities of small and large as well as rich and poor\ncommunities and institutions.",
+          "bbox": [
+            79.96005249023438,
+            389.5721435546875,
+            398.48272705078125,
+            406.7256164550781
+          ]
+        },
+        {
+          "id": 10,
+          "type": "paragraph_title",
+          "confidence": 0.814,
+          "text": "Shared governance structure:",
+          "bbox": [
+            67.69947052001953,
+            418.85296630859375,
+            183.82608032226562,
+            426.5533447265625
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.876,
+          "text": "We will share decision-making in order to enable the people we serve.",
+          "bbox": [
+            80.44878387451172,
+            437.74639892578125,
+            329.5321960449219,
+            445.5572509765625
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.878,
+          "text": "We will work based on an underlying assumption of trust and synergy.",
+          "bbox": [
+            80.5152587890625,
+            456.84320068359375,
+            328.9842224121094,
+            464.7536315917969
+          ]
+        },
+        {
+          "id": 13,
+          "type": "paragraph_title",
+          "confidence": 0.832,
+          "text": "Shared funding:",
+          "bbox": [
+            67.69515991210938,
+            474.6737365722656,
+            131.2587432861328,
+            482.5240478515625
+          ]
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "confidence": 0.949,
+          "text": "We will leverage provincial, institutional, and local dollars to realize economies of scale\nand put Ontario dollars to work for everyone.",
+          "bbox": [
+            80.185302734375,
+            493.5162048339844,
+            398.5377502441406,
+            511.4118957519531
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.943,
+          "text": "We will be willing to pool talents and dollars in order to provide common services that are\ntruly greater than those that can be maintained by individual institutions.",
+          "bbox": [
+            79.92527770996094,
+            522.7540893554688,
+            398.55975341796875,
+            539.521240234375
+          ]
+        },
+        {
+          "id": 16,
+          "type": "number",
+          "confidence": 0.747,
+          "text": "4",
+          "bbox": [
+            394.0664978027344,
+            560.338623046875,
+            399.657470703125,
+            565.6011352539062
+          ]
+        },
+        {
+          "id": 17,
+          "type": "footer",
+          "confidence": 0.862,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.42179870605469,
+            560.4016723632812,
+            258.5522766113281,
+            566.2188110351562
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 11,
+        "paragraph_title": 4,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 5,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.849,
+          "text": "Local points of entry:",
+          "bbox": [
+            67.2822036743164,
+            55.68107223510742,
+            150.73422241210938,
+            63.9840202331543
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.949,
+          "text": "We will provide the licenses, infrastructure, services and support that enable local \nlibraries to provide exceptional services to their clientele. ODL will focus on support,\nproviding the underpinning, not overshadowing.",
+          "bbox": [
+            84.28730010986328,
+            74.53328704833984,
+            380.0313720703125,
+            102.2506332397461
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.664,
+          "text": "Services envisioned for the ODL’s include:",
+          "bbox": [
+            66.84748840332031,
+            113.6323013305664,
+            218.9720001220703,
+            120.92626953125
+          ]
+        },
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.765,
+          "text": "Access:",
+          "bbox": [
+            67.3347396850586,
+            133.06568908691406,
+            102.2866439819336,
+            139.83453369140625
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.524,
+          "text": "to the “deep” web (i.e. Commercial, purchased electronic services) \nto credible web sites and electronic resources \nto digital government information \nto local digital collections",
+          "bbox": [
+            79.54572296142578,
+            141.98117065429688,
+            329.8582458496094,
+            179.4652099609375
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.536,
+          "text": "to digital government information",
+          "bbox": [
+            80.75142669677734,
+            161.80612182617188,
+            205.06993103027344,
+            169.4291229248047
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.557,
+          "text": "to local digital collections",
+          "bbox": [
+            80.62950134277344,
+            171.93214416503906,
+            175.6236572265625,
+            179.64349365234375
+          ]
+        },
+        {
+          "id": 8,
+          "type": "paragraph_title",
+          "confidence": 0.812,
+          "text": "Guidance and Advice:",
+          "bbox": [
+            67.45442962646484,
+            190.70327758789062,
+            158.53298950195312,
+            198.12921142578125
+          ]
+        },
+        {
+          "id": 9,
+          "type": "paragraph_title",
+          "confidence": 0.685,
+          "text": "Training:",
+          "bbox": [
+            68.35442352294922,
+            229.9011688232422,
+            106.26600646972656,
+            237.33355712890625
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.605,
+          "text": "for library workers",
+          "bbox": [
+            80.66001892089844,
+            239.34886169433594,
+            149.86529541015625,
+            246.0666046142578
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.559,
+          "text": "for the general public",
+          "bbox": [
+            80.67790222167969,
+            248.82582092285156,
+            161.37222290039062,
+            256.4618835449219
+          ]
+        },
+        {
+          "id": 12,
+          "type": "paragraph_title",
+          "confidence": 0.749,
+          "text": "Provincial Purchasing & Licensing:",
+          "bbox": [
+            67.23212432861328,
+            267.5496520996094,
+            211.0615997314453,
+            275.4622802734375
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "confidence": 0.627,
+          "text": "of electronic content on a consortia basis for all member libraries",
+          "bbox": [
+            80.0691909790039,
+            277.8078918457031,
+            322.1373596191406,
+            285.4747619628906
+          ]
+        },
+        {
+          "id": 14,
+          "type": "paragraph_title",
+          "confidence": 0.79,
+          "text": "Technological Support:",
+          "bbox": [
+            68.0631103515625,
+            296.4846496582031,
+            163.69158935546875,
+            304.5275573730469
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.811,
+          "text": "of common standards for the preservation and archiving local digital content \nof a common interface to ODL resources and services that can be imbedded in local\nlibrary web sites",
+          "bbox": [
+            78.64804077148438,
+            306.51605224609375,
+            394.4104919433594,
+            333.7777404785156
+          ]
+        },
+        {
+          "id": 16,
+          "type": "paragraph_title",
+          "confidence": 0.711,
+          "text": "What could the ODL really mean?",
+          "bbox": [
+            66.70447540283203,
+            357.2933044433594,
+            204.24853515625,
+            365.36279296875
+          ]
+        },
+        {
+          "id": 17,
+          "type": "paragraph_title",
+          "confidence": 0.779,
+          "text": "For each Ontario citizen it could mean:",
+          "bbox": [
+            66.80459594726562,
+            377.5467529296875,
+            216.80455017089844,
+            385.104736328125
+          ]
+        },
+        {
+          "id": 18,
+          "type": "text",
+          "confidence": 0.622,
+          "text": "One local point of entry to access seamless electronic library services and\nresources for their personal, educational and professional needs;",
+          "bbox": [
+            121.39486694335938,
+            387.6147155761719,
+            384.5897216796875,
+            404.2044372558594
+          ]
+        },
+        {
+          "id": 19,
+          "type": "text",
+          "confidence": 0.684,
+          "text": "Access to credible, high-quality, user-friendly electronic services through their\ncommunity, school, or academic library;",
+          "bbox": [
+            121.25086212158203,
+            406.6908264160156,
+            395.7699890136719,
+            424.6509094238281
+          ]
+        },
+        {
+          "id": 20,
+          "type": "text",
+          "confidence": 0.682,
+          "text": "Confidence that the electronic services and sources they – and their children\n– are using are safe, valid, and bringing them both global and local",
+          "bbox": [
+            121.27989959716797,
+            425.7316589355469,
+            393.8099365234375,
+            443.67572021484375
+          ]
+        },
+        {
+          "id": 21,
+          "type": "text",
+          "confidence": 0.778,
+          "text": "Electronic information and tools that enhance job skills and the learning\nexperience",
+          "bbox": [
+            121.2164077758789,
+            454.50347900390625,
+            398.3228454589844,
+            472.6081848144531
+          ]
+        },
+        {
+          "id": 22,
+          "type": "paragraph_title",
+          "confidence": 0.817,
+          "text": "For each Ontario student it could mean:",
+          "bbox": [
+            66.90927124023438,
+            483.73040771484375,
+            221.43252563476562,
+            491.0653991699219
+          ]
+        },
+        {
+          "id": 23,
+          "type": "text",
+          "confidence": 0.513,
+          "text": "One local point of entry to quality, curriculum- based electronic information\nresources and services \nConnection to their individual educational environment, whether at the \nelementary, secondary or post-secondary levels",
+          "bbox": [
+            120.87183380126953,
+            492.2743835449219,
+            384.8298034667969,
+            530.2182006835938
+          ]
+        },
+        {
+          "id": 24,
+          "type": "text",
+          "confidence": 0.594,
+          "text": "One local point of entry to quality, curriculum- based electronic information\nresources and services",
+          "bbox": [
+            121.13612365722656,
+            492.63751220703125,
+            384.9222717285156,
+            510.4034423828125
+          ]
+        },
+        {
+          "id": 25,
+          "type": "text",
+          "confidence": 0.583,
+          "text": "Connection to their individual educational environment, whether at the\nelementary, secondary or post-secondary levels",
+          "bbox": [
+            121.39962005615234,
+            512.6312866210938,
+            370.1986389160156,
+            530.1719360351562
+          ]
+        },
+        {
+          "id": 26,
+          "type": "number",
+          "confidence": 0.77,
+          "text": "5",
+          "bbox": [
+            394.37689208984375,
+            560.2069091796875,
+            399.56781005859375,
+            565.6235961914062
+          ]
+        },
+        {
+          "id": 27,
+          "type": "footer",
+          "confidence": 0.872,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.71041870117188,
+            560.520263671875,
+            258.5882263183594,
+            566.2171020507812
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 9,
+        "text": 16,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 6,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.912,
+          "text": "Confidence that the services and resources people are using are credible,\navailable when they need them and adaptable to different learning styles",
+          "bbox": [
+            121.39022064208984,
+            55.71508026123047,
+            383.8293762207031,
+            72.8405990600586
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.818,
+          "text": "For each Ontario library it could mean:",
+          "bbox": [
+            66.75492095947266,
+            84.5132064819336,
+            216.803955078125,
+            92.26896667480469
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.765,
+          "text": "One point of entry for themselves and their clientele to quality electronic \nresources and services that support and enhance their collections, programs\nand services",
+          "bbox": [
+            120.95729064941406,
+            93.81122589111328,
+            394.1695861816406,
+            120.8095703125
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.869,
+          "text": "The opportunity to show case their local community, collections, services, and\nexpertise",
+          "bbox": [
+            121.21989440917969,
+            122.62693786621094,
+            398.3276062011719,
+            139.92164611816406
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.868,
+          "text": "The opportunity to gain from the provincial, collaborative partnership in order\nto provide a seamless gateway to digital resources and services",
+          "bbox": [
+            121.26070404052734,
+            142.5763702392578,
+            392.6983947753906,
+            159.74794006347656
+          ]
+        },
+        {
+          "id": 6,
+          "type": "paragraph_title",
+          "confidence": 0.727,
+          "text": "For the Ontario government it could mean:",
+          "bbox": [
+            66.8473129272461,
+            171.71768188476562,
+            232.0110321044922,
+            179.30227661132812
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.711,
+          "text": "A point of entry to information services and resources for all Ontario citizens,\nconnecting to portal initiatives.",
+          "bbox": [
+            121.09195709228516,
+            180.92575073242188,
+            392.0899658203125,
+            198.49090576171875
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.589,
+          "text": "The opportunity to address emerging job skills shortages and facilitate school\nto work and job to job transitions with the necessary information and \nknowledge supports and tools",
+          "bbox": [
+            120.95751953125,
+            238.50216674804688,
+            395.7373962402344,
+            267.01678466796875
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.954,
+          "text": "ODL will be an incorporated non-profit organization governed by a Board of Directors elected\nby a voting membership. The Board will include representatives from all stakeholders. We\nenvision a governance model similar to that prepared for the province’s ORION network.",
+          "bbox": [
+            66.0982437133789,
+            277.42681884765625,
+            398.7491760253906,
+            304.5944519042969
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.94,
+          "text": "More information regarding the envisioned phasing, funding and resources required for the\nODL can be found in the appendixes.",
+          "bbox": [
+            66.28443908691406,
+            315.6163330078125,
+            398.20794677734375,
+            333.455322265625
+          ]
+        },
+        {
+          "id": 11,
+          "type": "paragraph_title",
+          "confidence": 0.646,
+          "text": "The Business Plan to be Developed",
+          "bbox": [
+            72.88432312011719,
+            352.7796630859375,
+            236.92727661132812,
+            361.4841613769531
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.971,
+          "text": "The business plan which needs to be developed for the ODL must be a formal business plan\nthat documents and clearly communicates the ODL’s services, funding and governance \nstructures, as well as implementation plans for 2004-2005, and operational plans for 2005-\n2007. The planning process must also secure the full commitment of all stakeholders, as \nrepresented on the Steering Committee.",
+          "bbox": [
+            66.38422393798828,
+            384.5259094238281,
+            395.55792236328125,
+            431.67626953125
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "confidence": 0.596,
+          "text": "Specifically, the business plan must include:",
+          "bbox": [
+            66.56871032714844,
+            441.6175231933594,
+            224.61769104003906,
+            449.84954833984375
+          ]
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "confidence": 0.669,
+          "text": "the financial plan for the first 2 operating years, including capital and operating costs\nrevenues, etc.",
+          "bbox": [
+            98.31770324707031,
+            480.7534484863281,
+            397.66998291015625,
+            497.954833984375
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.658,
+          "text": "who will be involved, and what their role/responsibility will be, for both the\nimplementation and operational stages",
+          "bbox": [
+            97.36966705322266,
+            528.7971801757812,
+            398.48687744140625,
+            547.1959838867188
+          ]
+        },
+        {
+          "id": 16,
+          "type": "number",
+          "confidence": 0.75,
+          "text": "6",
+          "bbox": [
+            394.093994140625,
+            560.196044921875,
+            399.46417236328125,
+            565.7871704101562
+          ]
+        },
+        {
+          "id": 17,
+          "type": "footer",
+          "confidence": 0.874,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.63768005371094,
+            560.4120483398438,
+            258.4523010253906,
+            566.223388671875
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 12,
+        "paragraph_title": 3,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 7,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.519,
+          "text": "the marketing and communications plan for the ODL \nthe commitment of all stakeholders to their responsibilities",
+          "bbox": [
+            99.0528793334961,
+            55.81835174560547,
+            304.22943115234375,
+            72.21633911132812
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.955,
+          "text": "The process of developing this business plan must be extremely consultative to ensure that \nall stakeholders are engaged in creating a synergistic ODL organization. The proposal must\nindicate how this consultative process will be approached.",
+          "bbox": [
+            66.57100677490234,
+            84.73858642578125,
+            391.7423400878906,
+            111.4250259399414
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.956,
+          "text": "The business plan for the ODL must address significant issues. There are, for example, \nenormous differences in the financial resources available to libraries mandated to provide \nsimilar services. Some post-secondary and public libraries, particularly those in large urban \nareas, have the facilities, funding and technological infrastructure necessary to service their \npatrons with electronic services and resources.  Many others, particularly in rural regions, do\nnot. The proposal must indicate how these issues will be approached.",
+          "bbox": [
+            66.4073486328125,
+            122.66136932373047,
+            393.02142333984375,
+            179.67857360839844
+          ]
+        },
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.706,
+          "text": "Milestones",
+          "bbox": [
+            72.45018768310547,
+            207.76756286621094,
+            124.16119384765625,
+            216.3048858642578
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.786,
+          "text": "1) A preliminary report will be issued during June 2003.",
+          "bbox": [
+            81.95333099365234,
+            231.21717834472656,
+            280.8996887207031,
+            239.86647033691406
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.952,
+          "text": "2) It is expected that an Interim Report, suitable for distribution to the broader library\ncommunity will be available by August 1, 2003 and that there will be an opportunity\nfor responses to be evaluated.",
+          "bbox": [
+            81.13893127441406,
+            250.44020080566406,
+            399.24005126953125,
+            277.4849853515625
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.929,
+          "text": "3) The business plan must be completed and approved by the ODL Steering Committee\nno later than September 30, 2003.",
+          "bbox": [
+            80.5988998413086,
+            288.39471435546875,
+            398.67724609375,
+            306.1592102050781
+          ]
+        },
+        {
+          "id": 8,
+          "type": "paragraph_title",
+          "confidence": 0.622,
+          "text": "Approach and Specific Proposal Requirements",
+          "bbox": [
+            74.17284393310547,
+            325.6904602050781,
+            292.63140869140625,
+            334.8878479003906
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.95,
+          "text": "The firm/consultant (or proposed team of consultants) will be expected to work closely with\nthe ODL Steering Committee. Terms of reference for the Committee are in the appendix.\nGiven the consultative nature of this business planning process, the firm/consultant will also\nbe expected to travel and communicate regularly with various stakeholders as well as with\nelectronic resource publishers/vendors.",
+          "bbox": [
+            66.18089294433594,
+            348.5198669433594,
+            398.3710632324219,
+            395.27349853515625
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.731,
+          "text": "The proposal should include the following information:",
+          "bbox": [
+            67.33203887939453,
+            406.4366455078125,
+            259.02001953125,
+            414.67523193359375
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.569,
+          "text": "a) name of the firm/consultant",
+          "bbox": [
+            80.63280487060547,
+            425.5922546386719,
+            189.419189453125,
+            433.07183837890625
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.591,
+          "text": "a) name of the firm/consultant \nb) names of those individuals who will be engaged in this project, their specific \nresponsibilities on this project and relevant experience/qualifications \nc) description of similar engagements that highlight the firm’s experience in business \nplanning and building stakeholder commitment \nd) references with details of work completed for these references \ne) description of the approach that will be used for completing the business plan, \nincluding a timeline \nf) cost to complete the study including estimated expenses (i.e.: travel, etc.) and payment \nstructure",
+          "bbox": [
+            79.88335418701172,
+            425.622314453125,
+            396.8157653808594,
+            519.9160766601562
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "confidence": 0.511,
+          "text": "b) names of those individuals who will be engaged in this project, their specific",
+          "bbox": [
+            80.33169555664062,
+            434.4689636230469,
+            358.06207275390625,
+            442.8397521972656
+          ]
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "confidence": 0.543,
+          "text": "responsibilities on this project and relevant experience/qualifications",
+          "bbox": [
+            80.3820571899414,
+            444.71807861328125,
+            322.9014892578125,
+            452.9048767089844
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.519,
+          "text": ")\np\ng g\ng\nplanning and building stakeholder commitment",
+          "bbox": [
+            81.06226348876953,
+            463.328857421875,
+            248.3507080078125,
+            472.18389892578125
+          ]
+        },
+        {
+          "id": 16,
+          "type": "text",
+          "confidence": 0.518,
+          "text": "d) references with details of work completed for these references",
+          "bbox": [
+            80.71087646484375,
+            473.4471740722656,
+            312.0128173828125,
+            481.62713623046875
+          ]
+        },
+        {
+          "id": 17,
+          "type": "text",
+          "confidence": 0.794,
+          "text": "f) cost to complete the study including estimated expenses (i.e.: travel, etc.) and payment\nstructure",
+          "bbox": [
+            79.97994232177734,
+            502.595458984375,
+            395.80609130859375,
+            519.8021240234375
+          ]
+        },
+        {
+          "id": 18,
+          "type": "number",
+          "confidence": 0.78,
+          "text": "7",
+          "bbox": [
+            394.3536071777344,
+            559.9898071289062,
+            399.7418518066406,
+            565.6309814453125
+          ]
+        },
+        {
+          "id": 19,
+          "type": "footer",
+          "confidence": 0.87,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.61798858642578,
+            560.47412109375,
+            258.5151062011719,
+            566.1874389648438
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 3,
+        "text": 14,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 8,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.629,
+          "text": "Evaluation and Awarding of Contract",
+          "bbox": [
+            71.80120086669922,
+            63.87809753417969,
+            245.4058074951172,
+            72.63451385498047
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.871,
+          "text": "The contract will be awarded to the bidder whose submission offers the best value; the contract will\nnot necessarily be awarded to the lowest bidder. We reserve the right not to award the contract to \nany of the bidders responding to this RFP and we may seek further response.",
+          "bbox": [
+            66.44126892089844,
+            93.62744903564453,
+            397.5143127441406,
+            122.03065490722656
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.789,
+          "text": "Specifically, proposals will be evaluated proposals according to the following criteria:",
+          "bbox": [
+            66.74470520019531,
+            132.61923217773438,
+            347.48321533203125,
+            141.349609375
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.607,
+          "text": "Quality of the proposal /approach outlined for undertaking the business planning process\nDemonstrated experience",
+          "bbox": [
+            93.55463409423828,
+            160.8053741455078,
+            391.54168701171875,
+            178.61465454101562
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.712,
+          "text": "Questions regarding this RFP should be directed by e-mail only to Michael Ridley\n(mridley@uoguelph.ca).",
+          "bbox": [
+            66.33521270751953,
+            219.29537963867188,
+            340.0589904785156,
+            237.17202758789062
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.802,
+          "text": "Bidders are asked not to contact any other member of the ODL Catalyst Team or the ODL Steering\nCommittee.",
+          "bbox": [
+            66.47015380859375,
+            248.29922485351562,
+            397.8948059082031,
+            264.9679870605469
+          ]
+        },
+        {
+          "id": 7,
+          "type": "number",
+          "confidence": 0.771,
+          "text": "8",
+          "bbox": [
+            394.36260986328125,
+            560.093017578125,
+            399.7718811035156,
+            565.7161254882812
+          ]
+        },
+        {
+          "id": 8,
+          "type": "footer",
+          "confidence": 0.859,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.94902038574219,
+            560.3814086914062,
+            258.7156066894531,
+            566.2941284179688
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 1,
+        "text": 5,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 9,
+      "elements": [
+        {
+          "id": 1,
+          "type": "paragraph_title",
+          "confidence": 0.649,
+          "text": "Appendix A:  ODL Envisioned Phases & Funding",
+          "bbox": [
+            66.62841033935547,
+            83.67289733886719,
+            289.75390625,
+            93.01200103759766
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.734,
+          "text": "Phase I:  Business Planning",
+          "bbox": [
+            66.88605499267578,
+            106.4681625366211,
+            165.14236450195312,
+            113.82417297363281
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.695,
+          "text": "Timeline: March 2003 – September 2003",
+          "bbox": [
+            66.740478515625,
+            124.36450958251953,
+            204.18557739257812,
+            131.2811737060547
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.798,
+          "text": "Funding Requested: ~$100,000 jointly funded by stakeholder groups and the provincial government",
+          "bbox": [
+            66.54376983642578,
+            133.41297912597656,
+            394.6951599121094,
+            141.0735626220703
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.687,
+          "text": "Result: The ODL business plan",
+          "bbox": [
+            66.86268615722656,
+            150.56454467773438,
+            171.81771850585938,
+            157.51031494140625
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.95,
+          "text": "The first phase will be to build the ODL business plan. This plan will clearly define the ODL’s services,\nfunding and governance structures, as well as implementation plans for 2003-2005. It will also secure \nthe full commitment of all stakeholders and scope the operational plan for ODL for 2006 and beyond.",
+          "bbox": [
+            66.38156127929688,
+            168.55186462402344,
+            391.65643310546875,
+            193.37747192382812
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.933,
+          "text": "Given the number and diversity of stakeholders involved, the business planning process must be a fully\nconsultative approach. To ensure that the planning results in a workable plan with the full commitment \nof all stakeholders it must have competent, dedicated staffing and monies for the travel and \ncommunication components so critical in a consultative process.",
+          "bbox": [
+            66.18711853027344,
+            203.63278198242188,
+            396.8923645019531,
+            237.30181884765625
+          ]
+        },
+        {
+          "id": 8,
+          "type": "paragraph_title",
+          "confidence": 0.838,
+          "text": "Phase II: Implementing and Transitioning",
+          "bbox": [
+            66.95950317382812,
+            256.1708068847656,
+            210.261962890625,
+            263.7778625488281
+          ]
+        },
+        {
+          "id": 9,
+          "type": "paragraph_title",
+          "confidence": 0.598,
+          "text": "Timeline: April 2004 – December 2006",
+          "bbox": [
+            66.84095001220703,
+            273.68963623046875,
+            196.27723693847656,
+            280.322021484375
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.937,
+          "text": "Funding Requested: Funding from other states and provinces suggest that the ODL could receive \nfunding of up to $50 Million (over 3 years). Funding to be provided partnership of government, library\nstakeholders and other interested parties.",
+          "bbox": [
+            66.66466522216797,
+            282.5965576171875,
+            390.4753723144531,
+            307.0967102050781
+          ]
+        },
+        {
+          "id": 11,
+          "type": "paragraph_title",
+          "confidence": 0.703,
+          "text": "Result: The ODL is implemented and validated",
+          "bbox": [
+            66.8255386352539,
+            317.67205810546875,
+            221.1767578125,
+            324.51776123046875
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.975,
+          "text": "The second phase will be to implement the ODL based on the business plan. This phase recognizes\nthat for ODL to be optimally successful libraries must transition to a new way of doing business and\nproviding services. The transition must occur while libraries continue to provide existing services and\nrespond to current challenges. This implementation phase will funded by a partnership of government,\nlibrary stakeholders and other interested parties as a means to quickly jumpstart the ODL.",
+          "bbox": [
+            66.2191390991211,
+            335.0272521972656,
+            398.2153625488281,
+            377.96087646484375
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "confidence": 0.979,
+          "text": "The seed money requested will allow libraries to realign their budgets and services as the infrastructure\nand content of the ODL is created and secured. Some of the funding will be new money, although there\nis every indication that existing budgets and methods of operating may be modified as a result of\nrecommendations. During this phase the polices, procedures, governance structures and accountability\nmechanisms of the ODL will be put in place. Pilot projects will be initiated, evaluated and expanded.\nInformation resources will be identified, contracts for these resources will be negotiated and resources\nwill be made deployed through the ODL. Regular evaluation during this phase will ensure the ODL is\nachieving its objectives and is accountable to its key communities.",
+          "bbox": [
+            66.26505279541016,
+            388.0750732421875,
+            398.847412109375,
+            457.0372619628906
+          ]
+        },
+        {
+          "id": 14,
+          "type": "paragraph_title",
+          "confidence": 0.76,
+          "text": "Phase III: Operating and Growing the ODL",
+          "bbox": [
+            66.96437072753906,
+            467.05670166015625,
+            213.01980590820312,
+            474.8153991699219
+          ]
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "confidence": 0.713,
+          "text": "Timeline: January 2007 -",
+          "bbox": [
+            66.92428588867188,
+            484.6076354980469,
+            151.58265686035156,
+            491.1936950683594
+          ]
+        },
+        {
+          "id": 16,
+          "type": "text",
+          "confidence": 0.79,
+          "text": "Funding: $50 Million annually ($35 Million requested from government)",
+          "bbox": [
+            66.82451629638672,
+            493.6220397949219,
+            297.25787353515625,
+            501.2568359375
+          ]
+        },
+        {
+          "id": 17,
+          "type": "text",
+          "confidence": 0.579,
+          "text": "Result: The ODL is fully operational and sustainable",
+          "bbox": [
+            66.94916534423828,
+            511.1266784667969,
+            237.0841827392578,
+            518.1039428710938
+          ]
+        },
+        {
+          "id": 18,
+          "type": "text",
+          "confidence": 0.932,
+          "text": "In the third phase the ODL moves into the operational stage. Ontarians will experience the full benefits\nof the initiative and libraries will consolidate support around the ODL to grow resources and extend",
+          "bbox": [
+            66.47367858886719,
+            528.646728515625,
+            393.5621643066406,
+            545.0220336914062
+          ]
+        },
+        {
+          "id": 19,
+          "type": "number",
+          "confidence": 0.734,
+          "text": "9",
+          "bbox": [
+            394.31597900390625,
+            560.202880859375,
+            399.32568359375,
+            565.53955078125
+          ]
+        },
+        {
+          "id": 20,
+          "type": "footer",
+          "confidence": 0.849,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.41705322265625,
+            560.3834838867188,
+            258.42938232421875,
+            566.1533203125
+          ]
+        }
+      ],
+      "element_counts": {
+        "paragraph_title": 6,
+        "text": 12,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 10,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.94,
+          "text": "capabilities. The challenge is to secure resources sufficient to both sustain the original investments and\nto enhance the ODL.",
+          "bbox": [
+            66.27156829833984,
+            55.12925720214844,
+            396.4786682128906,
+            70.86952209472656
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.97,
+          "text": "The ongoing funding of the ODL will be based on a partnership model involving all the key participants\n(i.e. government, libraries, donors, public and private sectors). All participants (i.e. beneficiaries) are \nexpected to make financial contributions to the ODL. It is important in achieving the full impact of the \nODL on Ontario’s economy, society and learning support that all library sectors are participants \n(university, colleges, public libraries and schools).",
+          "bbox": [
+            65.94747161865234,
+            81.5154800415039,
+            394.0574951171875,
+            124.6441879272461
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.976,
+          "text": "The proposed funding model requires a continuing government investment, but also recognizes that as\nthe ODL matures a growing share of ODL funding will come from libraries and non-governmental \nsources. During the 3-year implementation phase (2004 – 2006) libraries will realign their budgets to \nenable ongoing funding contributions to ODL. During the same period ODL must build the proposed \nendowment and secure public and private sector gifts and/or in-kind contributions. The following chart \noutlines the model. This model is based on these assumptions:",
+          "bbox": [
+            66.01592254638672,
+            130.18116760253906,
+            396.4546813964844,
+            181.35202026367188
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.867,
+          "text": "1. that ODL expenditures will increase by 50% over a 10 year period",
+          "bbox": [
+            80.83393859863281,
+            187.58407592773438,
+            307.34796142578125,
+            195.01318359375
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.895,
+          "text": "2. that government funding will decrease from 70% to 45% during that 10 year period",
+          "bbox": [
+            80.14035034179688,
+            200.53671264648438,
+            360.2832336425781,
+            208.08657836914062
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.93,
+          "text": "3. that library contributions, endowment and gifts/in-kind funding will increase from 30% to 55%\nduring the same period",
+          "bbox": [
+            80.44750213623047,
+            213.80091857910156,
+            390.2012939453125,
+            230.34825134277344
+          ]
+        },
+        {
+          "id": 7,
+          "type": "table_title",
+          "confidence": 0.706,
+          "text": "OVERVIEW OF ODL FUNDING MODEL",
+          "bbox": [
+            186.4773406982422,
+            244.7346954345703,
+            319.8905334472656,
+            251.94711303710938
+          ]
+        },
+        {
+          "id": 8,
+          "type": "table",
+          "confidence": 0.982,
+          "text": "Funding Source \n2007 \n2017 \nGovernment \n$35M (70%) \n$33.75M (45%) \nLibraries \n$10M (20%) \n$22.5M (30%) \nEndowment \n$4.5M (9%) \n$15M (20%) \nGifts/In-Kind \n$0.5M (1%) \n$3.75M (5%) \nTOTAL ANNUAL \n$50M\n$75M",
+          "bbox": [
+            82.60433959960938,
+            261.36065673828125,
+            384.1192626953125,
+            319.38153076171875
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.956,
+          "text": "While the private sector will be invited to participate in the ODL through the endowment, gifts and in-\nkind contributions, the ODL will also explore compatible commercial services which leverage the reach\nof the ODL and help to offset operating costs.",
+          "bbox": [
+            65.97246551513672,
+            337.29400634765625,
+            394.9693908691406,
+            361.9190673828125
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.978,
+          "text": "A $50M budget leverages the consortium buying power of the province’s libraries to secure the best \nprices for information resources, the widest accessibility and the most favourable contracts. A budget of\nthis nature will ensure a core digital collection of sufficient scope and coverage to address a substantial \namount of the wide and diverse information and learning needs of the citizens of Ontario (an overview \nof the nature of the ODL digital collection is appended). The proposed ODL expenditures in 2006 \nrepresent an investment of $5.00 per citizen.",
+          "bbox": [
+            66.10906219482422,
+            372.6998596191406,
+            397.23406982421875,
+            423.72821044921875
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.92,
+          "text": "It is important to recognize that every new dollar per citizen invested in the Ontario Digital Library has a\ndouble benefit: it supports a province-wide library of high quality information resources and it \nstrengthens every local library in Ontario by allowing them to reinvest existing dollars in new resources \nthat enhance local services. This multiplier means that for every dollar invested in ODL the return\non investment is worth $2 of value for Ontario.",
+          "bbox": [
+            65.94236755371094,
+            434.03155517578125,
+            395.8937683105469,
+            476.17041015625
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.548,
+          "text": "It is important to recognize that every new dollar per citizen invested in the Ontario Digital Library has a\ndouble benefit: it supports a province-wide library of high quality information resources and it",
+          "bbox": [
+            66.0601806640625,
+            434.073486328125,
+            395.30712890625,
+            449.9796142578125
+          ]
+        },
+        {
+          "id": 13,
+          "type": "number",
+          "confidence": 0.813,
+          "text": "10\n10\n10\n10",
+          "bbox": [
+            390.9789733886719,
+            559.8804321289062,
+            399.43353271484375,
+            565.5538330078125
+          ]
+        },
+        {
+          "id": 14,
+          "type": "footer",
+          "confidence": 0.865,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.74754333496094,
+            560.4315795898438,
+            258.47344970703125,
+            566.1910400390625
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 10,
+        "table_title": 1,
+        "table": 1,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 11,
+      "elements": [
+        {
+          "id": 1,
+          "type": "header",
+          "confidence": 0.544,
+          "text": "Appendix B: \nODL Steering Committee Terms of Reference",
+          "bbox": [
+            71.0119400024414,
+            72.74732208251953,
+            361.430419921875,
+            82.36612701416016
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.884,
+          "text": "1. Preamble",
+          "bbox": [
+            67.24137878417969,
+            104.73854064941406,
+            109.3504867553711,
+            111.43380737304688
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.958,
+          "text": "Implementation of the Ontario Digital Library (ODL) requires a detailed business plan to be developed\nand supported by its diverse stakeholder communities (see: www.odl.on.ca).  The business \ndevelopment planning and commitment process will be overseen by a Steering Committee, who are \naccountable to potential ODL funders including  the Province of Ontario.",
+          "bbox": [
+            70.65930938720703,
+            122.05130004882812,
+            395.8511047363281,
+            155.83050537109375
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.503,
+          "text": "development planning and commitment process will be overseen by a Steering Committee, who are \naccountable to potential ODL funders including  the Province of Ontario.",
+          "bbox": [
+            70.3929672241211,
+            139.92623901367188,
+            392.5418701171875,
+            156.0926055908203
+          ]
+        },
+        {
+          "id": 5,
+          "type": "paragraph_title",
+          "confidence": 0.881,
+          "text": "2. Terms of Reference",
+          "bbox": [
+            66.97947692871094,
+            166.0572967529297,
+            144.4774932861328,
+            172.7721405029297
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.958,
+          "text": "In broad terms, the ODL Business Plan Steering Committee is responsible for development of the\nbusiness plan, securing sector support, and management of the planners and process.  Specific \nresponsibilities include:",
+          "bbox": [
+            70.55302429199219,
+            183.36634826660156,
+            384.1614990234375,
+            208.0517120361328
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.907,
+          "text": "2.1 developing a detailed business plan for the three-year implementation phase of the ODL, including\ngovernance, management, funding model and structure, organizational structure, marketing, \nstaffing, and evaluation;",
+          "bbox": [
+            71.16801452636719,
+            218.5448455810547,
+            398.1835632324219,
+            243.12547302246094
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.912,
+          "text": "2.2 consulting with and reporting to stakeholder communities, to ensure open, consistent and two-way\ncommunication, and to ensure meaningful opportunities for stakeholder input into decision-\nmaking;",
+          "bbox": [
+            71.42829895019531,
+            245.39669799804688,
+            397.9107971191406,
+            269.43994140625
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.693,
+          "text": "2.3 recruiting and managing the business planner(s);",
+          "bbox": [
+            71.16226196289062,
+            271.97747802734375,
+            242.8621826171875,
+            279.0194091796875
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.829,
+          "text": "g\ng g\np\n( )\n2.4 defining terms of reference and resource parameters for business planner(s), and authorizing\nexpenditures;",
+          "bbox": [
+            71.14625549316406,
+            279.9479064941406,
+            382.2324523925781,
+            296.00323486328125
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.762,
+          "text": "2.5 serving as a focus group for business planner(s) to test ideas;",
+          "bbox": [
+            71.06486511230469,
+            297.8024597167969,
+            282.5222473144531,
+            305.1098327636719
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.888,
+          "text": "2.6 providing signoff for business planner(s) at key decision points of business plan development; \n2.7 securing commitment from library, government, and institutional stakeholders for implementation\nof the business plan;",
+          "bbox": [
+            71.06109619140625,
+            306.6809387207031,
+            392.2900695800781,
+            331.34442138671875
+          ]
+        },
+        {
+          "id": 13,
+          "type": "text",
+          "confidence": 0.524,
+          "text": "2.8 presenting the business plan to funders",
+          "bbox": [
+            71.39107513427734,
+            333.2682800292969,
+            211.99977111816406,
+            340.1147155761719
+          ]
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "confidence": 0.888,
+          "text": "p\ng\np\n2.9 undertaking advocacy efforts to promote the ODL to the broader communities including library\nand education communities.",
+          "bbox": [
+            71.37970733642578,
+            341.3075256347656,
+            386.2808837890625,
+            357.7377014160156
+          ]
+        },
+        {
+          "id": 15,
+          "type": "paragraph_title",
+          "confidence": 0.874,
+          "text": "3. Membership",
+          "bbox": [
+            66.98969268798828,
+            368.1667785644531,
+            119.4994888305664,
+            375.2196960449219
+          ]
+        },
+        {
+          "id": 16,
+          "type": "text",
+          "confidence": 0.947,
+          "text": "Each of the four sectors, Schools, Colleges, Universities, and Public Libraries can appoint up to two\nrepresentatives to the steering committee",
+          "bbox": [
+            70.45291137695312,
+            385.6191711425781,
+            389.6184997558594,
+            402.09014892578125
+          ]
+        },
+        {
+          "id": 17,
+          "type": "paragraph_title",
+          "confidence": 0.801,
+          "text": "3.1 Schools:",
+          "bbox": [
+            71.35774230957031,
+            412.0769348144531,
+            113.92214965820312,
+            418.79254150390625
+          ]
+        },
+        {
+          "id": 18,
+          "type": "text",
+          "confidence": 0.953,
+          "text": "- Ontario School Library Association (OSLA) and The Association of Library Consultants and\nCoordinators of Ontario (TALCO)  (Executive Council of OSLA to name representative in \nconsultation with TALCO)",
+          "bbox": [
+            93.60671997070312,
+            420.8782958984375,
+            391.06683349609375,
+            445.5577392578125
+          ]
+        },
+        {
+          "id": 19,
+          "type": "paragraph_title",
+          "confidence": 0.66,
+          "text": "3.2 Universities:",
+          "bbox": [
+            71.50675201416016,
+            447.260498046875,
+            125.0377426147461,
+            453.99700927734375
+          ]
+        },
+        {
+          "id": 20,
+          "type": "text",
+          "confidence": 0.791,
+          "text": "- Ontario Council of University Libraries (OCUL) (OCUL to name)",
+          "bbox": [
+            93.45489501953125,
+            455.74261474609375,
+            303.7933654785156,
+            463.6124572753906
+          ]
+        },
+        {
+          "id": 21,
+          "type": "paragraph_title",
+          "confidence": 0.574,
+          "text": "3.3 Colleges:",
+          "bbox": [
+            71.66639709472656,
+            464.9282531738281,
+            116.2804946899414,
+            472.0351867675781
+          ]
+        },
+        {
+          "id": 22,
+          "type": "text",
+          "confidence": 0.903,
+          "text": "- Bibliocentre, and Heads of Libraries and Learning Resources (UAG and HLLR to name) \n3.4 Public libraries:",
+          "bbox": [
+            71.214599609375,
+            473.4768371582031,
+            383.9388732910156,
+            488.5916748046875
+          ]
+        },
+        {
+          "id": 23,
+          "type": "text",
+          "confidence": 0.908,
+          "text": "- Administrators of Medium-sized Public Libraries of Ontario (AMPLO), Administrators of Rural\nUrban Public Libraries of Ontario (ARUPLO), Administrators of Small Public Libraries of \nOntario (ASPLO) and Chief Executives of Large-sized Public Libraries of Ontario (CELPLO) \n(Executives of AMPLO, ARUPLO, ASPLO and CELPLO to name)",
+          "bbox": [
+            93.03922271728516,
+            490.8456726074219,
+            395.75482177734375,
+            524.7808227539062
+          ]
+        },
+        {
+          "id": 24,
+          "type": "number",
+          "confidence": 0.812,
+          "text": "11\n11\n11\n11",
+          "bbox": [
+            390.9491271972656,
+            560.048828125,
+            398.9087219238281,
+            565.6796264648438
+          ]
+        },
+        {
+          "id": 25,
+          "type": "footer",
+          "confidence": 0.873,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.56101989746094,
+            560.4671630859375,
+            258.4315185546875,
+            566.2295532226562
+          ]
+        }
+      ],
+      "element_counts": {
+        "header": 1,
+        "paragraph_title": 6,
+        "text": 16,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 12,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.942,
+          "text": "3.5 Ontario Library Association representative (ex-officio)  (OLA to appoint one representative) \n- Role of the OLA ex-officio member: To act as a liaison between the steering committee and\nthe OLA Board, and to assist the chair with the administrative responsibilities connected with \nthe preparation of the business plan, finance, and communications.",
+          "bbox": [
+            71.74534606933594,
+            54.8729133605957,
+            393.7311706542969,
+            89.0293960571289
+          ]
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "confidence": 0.931,
+          "text": "3.6 It is anticipated that as planning for the ODL evolves, the Steering Committee may, at its\ndiscretion, call on invited experts to advise on issues as required.",
+          "bbox": [
+            70.81639862060547,
+            99.08919525146484,
+            366.0833740234375,
+            115.43649291992188
+          ]
+        },
+        {
+          "id": 3,
+          "type": "paragraph_title",
+          "confidence": 0.87,
+          "text": "4. Appointment Criteria and Process",
+          "bbox": [
+            66.90258026123047,
+            125.69141387939453,
+            199.72828674316406,
+            132.86138916015625
+          ]
+        },
+        {
+          "id": 4,
+          "type": "text",
+          "confidence": 0.941,
+          "text": "4.1 \nGroups and organizations named in Section 3 above are responsible for appointing up to two\nrepresentatives to the Steering Committee.",
+          "bbox": [
+            70.55911254882812,
+            143.63673400878906,
+            398.5588073730469,
+            160.06192016601562
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.677,
+          "text": "4.2 \nDesired characteristics for steering committee appointees include:",
+          "bbox": [
+            71.07915496826172,
+            171.10342407226562,
+            306.64324951171875,
+            178.59109497070312
+          ]
+        },
+        {
+          "id": 6,
+          "type": "text",
+          "confidence": 0.858,
+          "text": "• \nStrategic thinkers;",
+          "bbox": [
+            80.50340270996094,
+            189.83441162109375,
+            155.2455291748047,
+            196.75186157226562
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.877,
+          "text": "• \nCommitted to the concept of multi-sector partnerships;",
+          "bbox": [
+            80.64309692382812,
+            198.8326873779297,
+            270.2084045410156,
+            205.8391571044922
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.872,
+          "text": "• \nKnowledgeable about digital libraries and resources;",
+          "bbox": [
+            80.88724517822266,
+            208.6865234375,
+            264.38201904296875,
+            215.41567993164062
+          ]
+        },
+        {
+          "id": 9,
+          "type": "text",
+          "confidence": 0.884,
+          "text": "• \nKnowledgeable about government structures;",
+          "bbox": [
+            80.85061645507812,
+            218.05796813964844,
+            242.96849060058594,
+            224.6852569580078
+          ]
+        },
+        {
+          "id": 10,
+          "type": "text",
+          "confidence": 0.858,
+          "text": "• \nRespected by their communities; influential;",
+          "bbox": [
+            80.92835998535156,
+            226.97027587890625,
+            236.388671875,
+            233.9119415283203
+          ]
+        },
+        {
+          "id": 11,
+          "type": "text",
+          "confidence": 0.868,
+          "text": "• \nAble to take a consultative approach;",
+          "bbox": [
+            80.97796630859375,
+            236.164306640625,
+            215.64784240722656,
+            243.476318359375
+          ]
+        },
+        {
+          "id": 12,
+          "type": "text",
+          "confidence": 0.947,
+          "text": "• \nAble to devote time to Steering Committee business: approximately one day per month for\nmeetings plus 2-3 working days per month on related activities.",
+          "bbox": [
+            80.57744598388672,
+            246.71604919433594,
+            383.7029724121094,
+            264.2479248046875
+          ]
+        },
+        {
+          "id": 13,
+          "type": "paragraph_title",
+          "confidence": 0.885,
+          "text": "5.\nTerm",
+          "bbox": [
+            66.82933807373047,
+            274.53179931640625,
+            100.94654846191406,
+            281.4154357910156
+          ]
+        },
+        {
+          "id": 14,
+          "type": "text",
+          "confidence": 0.945,
+          "text": "Expected term on the Steering Committee is the time required to complete development of the\nbusiness plan plus two months. This process is expected to take approximately 6 months.",
+          "bbox": [
+            70.84048461914062,
+            292.72784423828125,
+            373.7522888183594,
+            308.5980529785156
+          ]
+        },
+        {
+          "id": 15,
+          "type": "paragraph_title",
+          "confidence": 0.867,
+          "text": "6.\nChair",
+          "bbox": [
+            66.8783950805664,
+            318.5359191894531,
+            101.27530670166016,
+            325.3672180175781
+          ]
+        },
+        {
+          "id": 16,
+          "type": "text",
+          "confidence": 0.882,
+          "text": "Chair will be appointed by the Board of the Ontario Library Association.",
+          "bbox": [
+            71.14913177490234,
+            336.0076599121094,
+            312.2006530761719,
+            343.5433044433594
+          ]
+        },
+        {
+          "id": 17,
+          "type": "text",
+          "confidence": 0.654,
+          "text": "Role of the Chair:",
+          "bbox": [
+            71.54238891601562,
+            355.6899108886719,
+            129.59326171875,
+            362.2464904785156
+          ]
+        },
+        {
+          "id": 18,
+          "type": "text",
+          "confidence": 0.973,
+          "text": "In addition to the characteristics for appointees (4.2) the role of the chair will be as a process agent \nworking with the selected consultant(s), OLA, and the Steering Committee to prepare the business \nplan. The chair must be able to devote 5-8 days per month on activities related to the preparation of\nthe business plan, and communications to stakeholders, funders, and government.",
+          "bbox": [
+            70.45986938476562,
+            373.1826477050781,
+            391.2056884765625,
+            406.8570251464844
+          ]
+        },
+        {
+          "id": 19,
+          "type": "paragraph_title",
+          "confidence": 0.883,
+          "text": "7. Meetings",
+          "bbox": [
+            67.03062438964844,
+            417.0556640625,
+            113.94817352294922,
+            424.4256286621094
+          ]
+        },
+        {
+          "id": 20,
+          "type": "text",
+          "confidence": 0.949,
+          "text": "It is expected that in person meetings are held once per month and the majority of business will be\nconducted by e-mail, and teleconference.",
+          "bbox": [
+            70.82945251464844,
+            434.9056701660156,
+            385.91094970703125,
+            450.7637023925781
+          ]
+        },
+        {
+          "id": 21,
+          "type": "paragraph_title",
+          "confidence": 0.847,
+          "text": "8. Lines of Accountability and Communication",
+          "bbox": [
+            66.6973876953125,
+            460.97357177734375,
+            233.9991912841797,
+            468.377197265625
+          ]
+        },
+        {
+          "id": 22,
+          "type": "text",
+          "confidence": 0.941,
+          "text": "8.1 The Steering Committee is accountable to the Province of Ontario, and to its business plan\nfunders.",
+          "bbox": [
+            71.03406524658203,
+            478.635009765625,
+            374.556640625,
+            494.42303466796875
+          ]
+        },
+        {
+          "id": 23,
+          "type": "text",
+          "confidence": 0.969,
+          "text": "8.2 The role of the Ontario Library Association is to assume responsibility for  funds contributed by the\nODL funders to finance the business plan, to hold the funds in a separate account, and \ndisperse them for purposes as  directed by the Steering Committee. OLA will provide \nfinancial reports to the Steering Committee as requested and shall comply with all \ngovernment reporting regulations for funds received.",
+          "bbox": [
+            71.45503997802734,
+            504.88043212890625,
+            396.9085998535156,
+            547.7454223632812
+          ]
+        },
+        {
+          "id": 24,
+          "type": "number",
+          "confidence": 0.81,
+          "text": "12\n12\n12\n12",
+          "bbox": [
+            390.9606628417969,
+            559.8544921875,
+            399.4513854980469,
+            565.5693969726562
+          ]
+        },
+        {
+          "id": 25,
+          "type": "footer",
+          "confidence": 0.876,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.61641693115234,
+            560.3435668945312,
+            258.5474548339844,
+            566.1724853515625
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 18,
+        "paragraph_title": 5,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 13,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.958,
+          "text": "8.3 The Steering Committee is accountable to its constituent groups and other stakeholders for \nongoing communications and consultation on issues and progress.  The Steering committee\nis responsible for strong liaison with government particularly the Chief Information Officer \nCommunity Services Cluster, ADM’s and Deputy Ministers.",
+          "bbox": [
+            71.56904602050781,
+            64.19408416748047,
+            394.8660888671875,
+            97.43560791015625
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.801,
+          "text": "9.\nFinancial and Administrative Policies",
+          "bbox": [
+            66.59528350830078,
+            107.64435577392578,
+            210.4565887451172,
+            114.67900848388672
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.58,
+          "text": "g\n9.2 Travel and meeting expenses for Steering Committee members are reimbursed according to the\npolicies of the Ontario Library Association",
+          "bbox": [
+            71.22352600097656,
+            133.78294372558594,
+            392.9094543457031,
+            151.9623260498047
+          ]
+        },
+        {
+          "id": 4,
+          "type": "number",
+          "confidence": 0.822,
+          "text": "13\n13\n13\n13",
+          "bbox": [
+            390.9943542480469,
+            559.9273681640625,
+            399.55126953125,
+            565.6436157226562
+          ]
+        },
+        {
+          "id": 5,
+          "type": "footer",
+          "confidence": 0.86,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            68.00110626220703,
+            560.4236450195312,
+            258.7540588378906,
+            566.3216552734375
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 2,
+        "paragraph_title": 1,
+        "number": 1,
+        "footer": 1
+      }
+    },
+    {
+      "page_number": 14,
+      "elements": [
+        {
+          "id": 1,
+          "type": "text",
+          "confidence": 0.964,
+          "text": "The purpose of the ODL is to provide equal access to information for all Ontario citizens through\ncollaboration and resource sharing. ODL will be a portal - capable of customization as \na home page for local libraries - to organized, comprehensive, authoritative and validated \ne-information resources to meet the needs of all Ontario citizens at all stages and in all aspects \nof their education, life and work. Some examples:",
+          "bbox": [
+            71.00698852539062,
+            104.68112182617188,
+            378.2392272949219,
+            146.81370544433594
+          ]
+        },
+        {
+          "id": 2,
+          "type": "paragraph_title",
+          "confidence": 0.84,
+          "text": "1. Reference Resources",
+          "bbox": [
+            72.20191955566406,
+            157.0411376953125,
+            151.0717315673828,
+            164.11781311035156
+          ]
+        },
+        {
+          "id": 3,
+          "type": "text",
+          "confidence": 0.794,
+          "text": "- directories: companies, associations, organizations, governments, educational institutions,\netc. etc.",
+          "bbox": [
+            71.10975646972656,
+            175.29872131347656,
+            364.0036926269531,
+            191.2280731201172
+          ]
+        },
+        {
+          "id": 4,
+          "type": "paragraph_title",
+          "confidence": 0.832,
+          "text": "2. Subject Guides",
+          "bbox": [
+            71.56275939941406,
+            323.9070739746094,
+            130.05203247070312,
+            331.5187683105469
+          ]
+        },
+        {
+          "id": 5,
+          "type": "text",
+          "confidence": 0.907,
+          "text": "-arts and humanities \n- business and economics \n- education \n-recreation and sports \n-entertainment - games, activities for kids \n-health information \n-science and technology \n-social sciences \n-society and culture",
+          "bbox": [
+            71.55097198486328,
+            342.5995788574219,
+            205.12423706054688,
+            419.4495849609375
+          ]
+        },
+        {
+          "id": 6,
+          "type": "paragraph_title",
+          "confidence": 0.824,
+          "text": "3. Educational tool-kits",
+          "bbox": [
+            71.56291198730469,
+            429.7860107421875,
+            145.66226196289062,
+            436.6482238769531
+          ]
+        },
+        {
+          "id": 7,
+          "type": "text",
+          "confidence": 0.827,
+          "text": "-guides to information gathering methodologies, information literacy\n-study guides \n-study skill development \n-web-based curricula \n-internet search guides",
+          "bbox": [
+            71.04157257080078,
+            447.203125,
+            287.6220703125,
+            489.7489013671875
+          ]
+        },
+        {
+          "id": 8,
+          "type": "text",
+          "confidence": 0.733,
+          "text": "4. Journals, books, maps, music etc.",
+          "bbox": [
+            71.52306365966797,
+            500.5133056640625,
+            189.78968811035156,
+            507.3065185546875
+          ]
+        },
+        {
+          "id": 9,
+          "type": "number",
+          "confidence": 0.817,
+          "text": "14\n14\n14\n14",
+          "bbox": [
+            390.9154052734375,
+            559.9802856445312,
+            399.51971435546875,
+            565.6245727539062
+          ]
+        },
+        {
+          "id": 10,
+          "type": "footer",
+          "confidence": 0.881,
+          "text": "RFP: To Develop the Ontario Digital Library Business Plan\n March 2003",
+          "bbox": [
+            67.7689208984375,
+            560.5625,
+            258.4276428222656,
+            566.2680053710938
+          ]
+        }
+      ],
+      "element_counts": {
+        "text": 5,
+        "paragraph_title": 3,
+        "number": 1,
+        "footer": 1
+      }
+    }
+  ]
+}
