@@ -1,6 +1,6 @@
 from paddleocr import LayoutDetection
 from PIL import Image
-import fitz  # PyMuPDF
+import fitz  
 import os
 import json
 from datetime import datetime
@@ -8,11 +8,9 @@ import multiprocessing as mp
 from concurrent.futures import ProcessPoolExecutor
 import gc
 
-# Keep your original CPU settings but optimize them
 os.environ['OMP_NUM_THREADS'] = '2'
 os.environ['MKL_NUM_THREADS'] = '2'
 
-# Single global model to avoid reloading
 _model_instance = None
 
 def get_shared_model():
@@ -44,7 +42,7 @@ def process_single_image_optimized(img_path):
 
 
 class FastPDFProcessor:
-    def __init__(self, max_workers=4):  # Conservative worker count
+    def __init__(self, max_workers=4):  
         self.layout_model = None
         self.max_workers = max_workers
 
@@ -87,7 +85,6 @@ class FastPDFProcessor:
                 x2 * scale_x, y2 * scale_y
             )
 
-            # Try different extraction methods for better results
             text = page.get_text("text", clip=pdf_rect)
 
             # If no text found, try getting text blocks in the area
@@ -126,7 +123,6 @@ class FastPDFProcessor:
 
                     result["element_counts"][label] = result["element_counts"].get(label, 0) + 1
 
-                    # MODIFIED: Extract text for ALL elements, not just specific types
                     text_content = ""
                     try:
                         text_content = self.extract_text_from_coordinates(
@@ -140,7 +136,7 @@ class FastPDFProcessor:
                         "type": label,
                         "confidence": round(float(score), 3),
                         "text": text_content,
-                        "bbox": [float(x) for x in coordinate]  # Convert numpy types to Python float
+                        "bbox": [float(x) for x in coordinate]  
                     }
 
                     result["elements"].append(element)
@@ -205,7 +201,6 @@ class FastPDFProcessor:
 
         results = {}
 
-        # Only parallelize the slowest part - AI inference
         with ProcessPoolExecutor(max_workers=self.max_workers, initializer=_init_worker) as executor:
             future_to_img = {
                 executor.submit(process_single_image_optimized, img_path): img_path
@@ -226,14 +221,11 @@ class FastPDFProcessor:
         print("⚡ Starting dual output processing...")
         start_time = datetime.now()
 
-        # Step 1: Convert PDF to images (keep sequential - it's fast)
         image_paths, pdf_doc = self.convert_pdf_to_images_fast(pdf_path, dpi=dpi)
         os.makedirs(output_dir, exist_ok=True)
 
-        # Step 2: Parallel AI processing (ONLY change from original)
         layout_results = self.process_images_simple_parallel(image_paths)
 
-        # Step 3: Process results for BOTH outputs
         all_elements_results = []
         titles_only_results = []
 
@@ -242,27 +234,22 @@ class FastPDFProcessor:
 
             layout_output = layout_results.get(img_path, [])
 
-            # Process for ALL elements
             page_all_elements = []
             page_titles_only = []
 
             for det_result in layout_output:
-                # Get all elements
                 result_all = self.process_layout_result_all_elements(det_result, pdf_doc, idx, dpi)
                 page_all_elements.append(result_all)
 
-                # Get titles only
                 result_titles = self.process_layout_result_titles_only(det_result, pdf_doc, idx, dpi)
                 page_titles_only.append(result_titles)
 
             all_elements_results.extend(page_all_elements)
             titles_only_results.extend(page_titles_only)
 
-            # Memory cleanup every few pages
             if idx % 3 == 0:
                 gc.collect()
 
-        # Create final results for ALL elements
         final_all_elements = {
             "document": pdf_path,
             "total_pages": len(image_paths),
@@ -282,7 +269,6 @@ class FastPDFProcessor:
             "pages": titles_only_results
         }
 
-        # Save BOTH JSON files
         pdf_filename = os.path.splitext(os.path.basename(pdf_path))[0]
 
         all_elements_file = os.path.join(output_dir, f"{pdf_filename}_all_elements_results.json")
@@ -297,7 +283,6 @@ class FastPDFProcessor:
         print(f"💾 Saved all elements to: {all_elements_file}")
         print(f"💾 Saved titles only to: {titles_only_file}")
 
-        # Cleanup
         pdf_doc.close()
 
         for img_path in image_paths:
@@ -319,7 +304,6 @@ class FastPDFProcessor:
             "titles": []
         }
 
-        # Use shared model for consistency
         model = self._get_layout_model()
 
         for idx, img_path in enumerate(image_paths):
@@ -362,7 +346,6 @@ class FastPDFProcessor:
         return titles_result
 
 
-# At the end of your model.py file, replace the argument parsing section with:
 
 if __name__ == "__main__":
     import argparse
@@ -372,7 +355,6 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Process a PDF to generate layout analysis JSONs.")
     
-    # Make pdf_path optional and check environment variable
     parser.add_argument("pdf_path", nargs='?', help="Path to the PDF file to process.")
     parser.add_argument("--output_dir", default="output", help="Where to save results (default: output).")
     parser.add_argument("--dpi", type=int, default=55, help="Rendering DPI (default: 55).")
@@ -382,11 +364,9 @@ if __name__ == "__main__":
     print("⚡ Dual Output PDF Processor")
     print("=" * 50)
 
-    # Priority order: command line arg > environment variable > auto-search
     pdf_path = args.pdf_path or os.environ.get('PDF_PATH')
     
     if not pdf_path:
-        # Look for PDFs in the current directory and input directory
         search_paths = ["*.pdf", "input/*.pdf", "*.PDF", "input/*.PDF"]
         found_pdfs = []
         
@@ -404,7 +384,6 @@ if __name__ == "__main__":
             print("3. Place PDF file in current directory or 'input' folder")
             exit(1)
 
-    # Check if the PDF file exists
     if not os.path.exists(pdf_path):
         print(f"❌ Error: PDF file '{pdf_path}' not found.")
         exit(1)
@@ -414,7 +393,6 @@ if __name__ == "__main__":
     print(f"🚀 Processing: {pdf_path}")
     start = time.time()
 
-    # Main processing call
     all_elements_results, titles_only_results = processor.process_pdf_dual_output(
         pdf_path, output_dir=args.output_dir, dpi=args.dpi
     )
@@ -426,12 +404,10 @@ if __name__ == "__main__":
     print(f"📊 Pages processed: {all_elements_results['total_pages']}")
     print(f"🚀 Speed: {all_elements_results['total_pages']/(end-start):.2f} pages/sec")
     
-    # Show improvement over sequential
     sequential_estimate = all_elements_results['total_pages'] * 4.5  # Rough estimate
     speedup = sequential_estimate / (end-start)
     print(f"📈 Estimated speedup: {speedup:.1f}x")
 
-    # Display summary statistics
     print(f"\n📋 ALL ELEMENTS SUMMARY:")
     print("="*50)
     all_element_types = {}
@@ -455,7 +431,6 @@ if __name__ == "__main__":
     
     print(f"📊 Total titles found: {title_count}")
     
-    # Display sample titles
     print(f"\n📋 SAMPLE TITLES:")
     print("="*30)
     count = 0

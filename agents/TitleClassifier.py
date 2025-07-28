@@ -1,5 +1,4 @@
 
-# #TitleClassifier.py- TYPE 1
 import re
 import json
 import os
@@ -8,18 +7,16 @@ import statistics
 from collections import defaultdict, Counter
 from typing import List, Dict, Any, Tuple, Optional
 
-# Enhanced pattern matching for robust numbering detection
 NUMBERING_PATTERNS = {
-    'main_chapter': re.compile(r'^\s*(\d+)\.\s+(.+)', re.IGNORECASE),  # "1. Introduction"
-    'subsection': re.compile(r'^\s*(\d+)\.(\d+)\s+(.+)', re.IGNORECASE),  # "2.1 Intended Audience"
-    'subsubsection': re.compile(r'^\s*(\d+)\.(\d+)\.(\d+)\s+(.+)', re.IGNORECASE),  # "2.1.1 Something"
-    'simple_number': re.compile(r'^\s*(\d+)[\)\.]\s*(.+)', re.IGNORECASE),  # "1) or 1."
+    'main_chapter': re.compile(r'^\s*(\d+)\.\s+(.+)', re.IGNORECASE),  
+    'subsection': re.compile(r'^\s*(\d+)\.(\d+)\s+(.+)', re.IGNORECASE),  
+    'subsubsection': re.compile(r'^\s*(\d+)\.(\d+)\.(\d+)\s+(.+)', re.IGNORECASE),  
+    'simple_number': re.compile(r'^\s*(\d+)[\)\.]\s*(.+)', re.IGNORECASE),  
     'roman_numeral': re.compile(r'^\s*([IVXLCDM]+)\.\s+(.+)', re.IGNORECASE),
     'letter_numbering': re.compile(r'^\s*([A-Z])\.\s+(.+)', re.IGNORECASE),
     'bullet_point': re.compile(r'^\s*[\u2022\u2023\u25E6\u2043\u2219\-\*]\s+(.+)', re.IGNORECASE)
 }
 
-# Document structure keywords for better classification
 DOCUMENT_STRUCTURE_KEYWORDS = {
     'major_sections': {
         'introduction', 'overview', 'background', 'summary', 'conclusion', 
@@ -40,7 +37,6 @@ DOCUMENT_STRUCTURE_KEYWORDS = {
     }
 }
 
-# Document organizational terms that suggest hierarchy
 HIERARCHY_INDICATORS = {
     'chapter': 'H1',
     'section': 'H1', 
@@ -59,7 +55,6 @@ class AdvancedTitleClassifier:
         self.max_levels = max_levels
         self.level_names = ["title", "h1", "h2", "h3", "h4", "h5"][:max_levels]
         
-        # Enhanced debugging info
         self.debug_info = {
             "total_headings": len(self.data),
             "unique_font_sizes": len(set(h.get("font_size", 0) for h in self.data)),
@@ -81,34 +76,27 @@ class AdvancedTitleClassifier:
 
     def _precompute_features(self):
         """Enhanced feature computation with adaptive clustering"""
-        # Font size analysis with improved clustering
         sizes = [h.get("font_size", 0) for h in self.data]
         unique_sizes = sorted(set(sizes), reverse=True)
         
-        # More sophisticated font clustering
         self.size_clusters = self._create_adaptive_font_clusters(unique_sizes)
         self.size_to_cluster_rank = {}
         for rank, cluster in enumerate(self.size_clusters):
             for s in cluster:
                 self.size_to_cluster_rank[s] = rank
         
-        # Normalize font sizes with better distribution awareness
         self.size_norm = self._normalize_with_distribution_awareness(unique_sizes)
         
-        # Enhanced spatial analysis
         x_lefts = [h["bbox"][0] if h.get("bbox") else 0 for h in self.data]
         y_positions = [h["bbox"][1] if h.get("bbox") else 0 for h in self.data]
         widths = [h["bbox"][2] - h["bbox"][0] if h.get("bbox") else 0 for h in self.data]
         
-        # More sophisticated indent detection
         self.indent_levels = self._calculate_indent_levels(x_lefts)
         self.width_percentiles = self._calculate_width_percentiles(widths)
         self.position_context = self._analyze_position_context()
         
-        # Page-based context analysis
         self.page_analysis = self._analyze_page_structure()
         
-        # Text pattern analysis
         self.text_patterns = self._analyze_text_patterns()
 
     def _create_adaptive_font_clusters(self, sorted_sizes: List[float]) -> List[List[float]]:
@@ -116,16 +104,14 @@ class AdvancedTitleClassifier:
         if not sorted_sizes or len(sorted_sizes) <= 1:
             return [sorted_sizes] if sorted_sizes else []
         
-        # Calculate relative gaps between font sizes
         gaps = []
         for i in range(len(sorted_sizes) - 1):
             gap = sorted_sizes[i] - sorted_sizes[i + 1]
             relative_gap = gap / sorted_sizes[i] if sorted_sizes[i] > 0 else 0
             gaps.append((gap, relative_gap, i))
         
-        # Find significant breaks (combination of absolute and relative gaps)
         gap_threshold = statistics.median([g[0] for g in gaps]) * 1.2
-        rel_gap_threshold = 0.1  # 10% relative difference
+        rel_gap_threshold = 0.1  
         
         clusters = []
         current_cluster = [sorted_sizes[0]]
@@ -139,9 +125,7 @@ class AdvancedTitleClassifier:
         
         clusters.append(current_cluster)
         
-        # Ensure reasonable number of clusters
         while len(clusters) > self.max_levels and len(clusters) > 2:
-            # Merge clusters with smallest internal variation
             min_variation = float('inf')
             merge_idx = -1
             
@@ -172,13 +156,11 @@ class AdvancedTitleClassifier:
         if math.isclose(vmin, vmax, rel_tol=1e-9):
             return {v: 1.0 for v in set(values)}
         
-        # Use percentile-based normalization for better handling of outliers
         sorted_vals = sorted(values)
         n = len(sorted_vals)
         
         normalized = {}
         for v in set(values):
-            # Find percentile rank
             rank = sum(1 for x in sorted_vals if x <= v)
             percentile = rank / n
             normalized[v] = percentile
@@ -190,12 +172,10 @@ class AdvancedTitleClassifier:
         if not x_positions:
             return {}
         
-        # Use k-means-like clustering for indent levels
         unique_x = sorted(set(x_positions))
         if len(unique_x) <= 1:
             return {x: 0 for x in unique_x}
         
-        # Find natural breaks in x-positions
         x_gaps = [unique_x[i + 1] - unique_x[i] for i in range(len(unique_x) - 1)]
         if not x_gaps:
             return {x: 0 for x in unique_x}
@@ -236,10 +216,8 @@ class AdvancedTitleClassifier:
             page = heading.get("page", 1)
             bbox = heading.get("bbox", [0, 0, 0, 0])
             
-            # Find headings on same page
             same_page_headings = [h for h in self.data if h.get("page") == page]
             
-            # Calculate relative position on page
             if same_page_headings:
                 y_positions = [h.get("bbox", [0, 0, 0, 0])[1] for h in same_page_headings]
                 y_positions = [y for y in y_positions if y > 0]
@@ -275,7 +253,6 @@ class AdvancedTitleClassifier:
         for page_num in pages:
             page_headings = [h for h in self.data if h.get("page") == page_num]
             
-            # Analyze font size distribution on this page
             page_sizes = [h.get("font_size", 0) for h in page_headings]
             
             analysis = {
@@ -311,7 +288,6 @@ class AdvancedTitleClassifier:
             if pattern_type in ['main_chapter', 'simple_number'] and number > 0:
                 numbered_items.append((number, i, pattern_type))
         
-        # Group consecutive sequences
         numbered_items.sort(key=lambda x: x[0])
         sequences = []
         current_seq = []
@@ -336,13 +312,11 @@ class AdvancedTitleClassifier:
         for i, heading in enumerate(self.data):
             text = heading.get("text", "")
             
-            # Look for numbered prefixes
             match = re.match(r'^(\d+\.\d+)', text.strip())
             if match:
                 main_num = match.group(1).split('.')[0]
                 prefix_groups[f"section_{main_num}"].append(i)
         
-        # Only keep groups with multiple items
         return {k: v for k, v in prefix_groups.items() if len(v) >= 2}
 
     def _identify_structural_keywords(self) -> Dict[str, List[int]]:
@@ -364,7 +338,6 @@ class AdvancedTitleClassifier:
         """Enhanced numbering pattern detection with better parsing"""
         text_stripped = text.strip()
         
-        # Check each pattern type with more sophisticated matching
         for pattern_name, pattern in NUMBERING_PATTERNS.items():
             match = pattern.match(text_stripped)
             if match:
@@ -389,7 +362,6 @@ class AdvancedTitleClassifier:
         words = text_lower.split()
         context = context or {}
         
-        # Check for document structure keywords with weighted scoring
         max_score = 0.0
         suggested_level = 'H3'
         
@@ -410,7 +382,6 @@ class AdvancedTitleClassifier:
                         max_score = score
                         suggested_level = level
         
-        # Check for hierarchy indicators
         for indicator, level in HIERARCHY_INDICATORS.items():
             if indicator in text_lower:
                 indicator_score = 0.85
@@ -418,11 +389,9 @@ class AdvancedTitleClassifier:
                     max_score = indicator_score
                     suggested_level = level
         
-        # Enhanced length-based heuristics with context
         word_count = len(words)
         char_count = len(text)
         
-        # Adjust scoring based on length and context
         if max_score == 0.0:  # No keyword matches
             if word_count <= 2:
                 max_score = 0.3
@@ -437,7 +406,6 @@ class AdvancedTitleClassifier:
                 max_score = 0.2
                 suggested_level = 'H3'
         
-        # Context-based adjustments
         if context.get('is_first_on_page', False):
             max_score += 0.1
         
@@ -456,26 +424,20 @@ class AdvancedTitleClassifier:
         bbox = h.get("bbox", [0, 0, 0, 0])
         doc_type = h.get("type", "").lower()
         
-        # Get heading index for context lookup
         heading_idx = next((i for i, data_h in enumerate(self.data) if data_h == h), 0)
         position_context = self.position_context.get(heading_idx, {})
         
-        # Spatial measurements
         x0, y0, x1, y1 = bbox
         width = x1 - x0
         
-        # Enhanced text analysis
         words = text.split()
         word_count = len(words)
         
-        # Pattern analysis with context
         pattern_type, pattern_number, clean_text = self._detect_numbering_pattern(text)
         content_score, suggested_level = self._classify_by_content_analysis(text, position_context)
         
-        # Initialize feature scores with adjusted weights
         features = {}
         
-        # 1. Font Size Features (25% weight) - More nuanced
         size_cluster_rank = self.size_to_cluster_rank.get(size, len(self.size_clusters) - 1)
         num_clusters = len(self.size_clusters)
         
@@ -487,7 +449,6 @@ class AdvancedTitleClassifier:
         
         features["font_size_norm"] = 0.05 * self.size_norm.get(size, 0.5)
         
-        # 2. Enhanced Numbering Pattern Features (30% weight)
         if pattern_type == 'main_chapter':
             features["numbering_bonus"] = 0.25
             # Extra bonus for sequential numbers
@@ -502,14 +463,11 @@ class AdvancedTitleClassifier:
         else:
             features["numbering_bonus"] = 0.0
         
-        # 3. Enhanced Content Analysis Features (20% weight)
         features["content_analysis"] = 0.20 * content_score
         
-        # 4. Formatting Features (15% weight)
         features["bold_bonus"] = 0.10 if bold else 0.0
         features["italic_adjustment"] = -0.03 if italic and not bold else 0.0
         
-        # Enhanced type-based scoring
         if doc_type == "doc_title":
             features["type_bonus"] = 0.08
         elif doc_type == "paragraph_title":
@@ -517,11 +475,9 @@ class AdvancedTitleClassifier:
         else:
             features["type_bonus"] = 0.0
         
-        # 5. Enhanced Spatial Features (10% weight)
         indent_level = self.indent_levels.get(x0, 0)
         features["indent_penalty"] = -0.06 * min(indent_level, 2)
         
-        # Width-based scoring with percentiles
         if width > 0:
             if width >= self.width_percentiles['p75']:
                 features["width_bonus"] = 0.04
@@ -532,8 +488,7 @@ class AdvancedTitleClassifier:
         else:
             features["width_bonus"] = 0.0
         
-        # 6. Enhanced Position Features (10% weight)
-        # Page-based scoring with better distribution
+       
         if page == 1:
             features["page_bonus"] = 0.08
         elif page <= 3:
@@ -543,7 +498,7 @@ class AdvancedTitleClassifier:
         else:
             features["page_bonus"] = 0.0
         
-        # Position on page with context
+        
         if position_context.get('is_first_on_page', False):
             features["position_bonus"] = 0.02
         elif position_context.get('is_top_of_page', False):
@@ -551,26 +506,24 @@ class AdvancedTitleClassifier:
         else:
             features["position_bonus"] = 0.0
         
-        # 7. Enhanced Text Length Features (5% weight)
+       
         if word_count == 1:
-            features["length_adjustment"] = -0.02  # Single words less likely
+            features["length_adjustment"] = -0.02  
         elif word_count <= 3:
-            features["length_adjustment"] = 0.03  # Short phrases good
+            features["length_adjustment"] = 0.03  
         elif word_count <= 6:
-            features["length_adjustment"] = 0.01  # Medium length okay
+            features["length_adjustment"] = 0.01  
         elif word_count <= 12:
-            features["length_adjustment"] = 0.0   # Longer neutral
+            features["length_adjustment"] = 0.0   
         else:
-            features["length_adjustment"] = -0.01  # Very long slightly negative
+            features["length_adjustment"] = -0.01  
         
-        # 8. Sequence and Context Features (5% weight)
-        # Check if part of numbered sequence
+       
         if heading_idx in [idx for seq in self.text_patterns['numbered_sequences'] for idx in seq]:
             features["sequence_bonus"] = 0.03
         else:
             features["sequence_bonus"] = 0.0
         
-        # Check if part of subsection group
         for prefix, indices in self.text_patterns['common_prefixes'].items():
             if heading_idx in indices:
                 features["subsection_group_bonus"] = 0.02
@@ -578,10 +531,8 @@ class AdvancedTitleClassifier:
         else:
             features["subsection_group_bonus"] = 0.0
         
-        # 9. Special adjustments for common cases
         text_lower = text.lower()
         
-        # Penalize obvious non-headings
         if any(term in text_lower for term in ['copyright', 'version', 'page', '©']):
             features["noise_penalty"] = -0.15
         else:
@@ -639,18 +590,15 @@ class AdvancedTitleClassifier:
         if not first_page_candidates:
             first_page_candidates = scored[:3]  # Fallback to first few headings
         
-        # Sort by position (top first), then by score
         first_page_candidates.sort(key=lambda x: (
             x["heading"].get("bbox", [0, 999, 0, 0])[1],  # Y position (smaller = higher)
             -x["score"]  # Higher score first
         ))
         
-        # Look for explicit document titles first
         doc_title_candidates = [c for c in first_page_candidates 
                               if c["heading"].get("type") == "doc_title"]
         
         if doc_title_candidates:
-            # Combine multiple title parts if they're consecutive and related
             title_parts = []
             base_candidate = doc_title_candidates[0]
             base_y = base_candidate["heading"].get("bbox", [0, 0, 0, 0])[1]
@@ -659,7 +607,6 @@ class AdvancedTitleClassifier:
                 candidate_y = candidate["heading"].get("bbox", [0, 0, 0, 0])[1]
                 text = candidate["heading"].get("text", "").strip()
                 
-                # Include if close vertically and meaningful text
                 if abs(candidate_y - base_y) < 50 and self._is_meaningful_title_text(text):
                     title_parts.append(text)
                     if len(title_parts) >= 3:  # Limit to avoid very long titles
@@ -671,7 +618,6 @@ class AdvancedTitleClassifier:
                 combined_title = re.sub(r'\s+', ' ', combined_title).strip()
                 return combined_title
         
-        # Fallback: use the highest scoring early candidate
         if first_page_candidates:
             best_candidate = first_page_candidates[0]  # Already sorted by position then score
             return best_candidate["heading"].get("text", "").strip()
@@ -685,7 +631,6 @@ class AdvancedTitleClassifier:
         
         text_lower = text.lower().strip()
         
-        # Exclude common non-title elements
         exclude_patterns = [
             r'^page\s+\d+',
             r'^version\s+',
@@ -700,7 +645,6 @@ class AdvancedTitleClassifier:
             if re.search(pattern, text_lower):
                 return False
         
-        # Check reasonable length
         words = text.split()
         if len(words) > 15 or len(text) > 150:
             return False
