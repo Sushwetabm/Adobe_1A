@@ -4,6 +4,9 @@
 
 **Adobe_1A** is a document structure extraction tool designed to analyze PDFs and extract meaningful hierarchical outlines using layout detection, visual analysis, and text processing. It leverages the PP-DocLayout-L model from PaddleOCR, integrates multiple specialized agents for different analytical tasks, and supports multi-processing PDF processing for efficiency. This system is ideal for extracting structured content from complex PDFs, such as academic papers, reports, and manuals, without requiring internet access.
 
+For detailed explanation: 
+Refer to the doc: https://docs.google.com/document/d/1WPTNS6tBiFp0E7De9WHuMw1v6O8uqaJpeYh8bRTXRxw/edit?usp=sharing
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -48,7 +51,7 @@ Adobe_1A uses a modular, agent-based pipeline to process PDFs:
      - Validation agent ensures output quality.
 
 4. **Output JSONs**  
-   Final structured outlines are saved in `/app/output` as `*_classified.json`.
+   Final structured outlines are saved in `/app/output` as `*{file_name}_classified.json`.
 
 ---
 
@@ -59,7 +62,7 @@ Adobe_1A uses a modular, agent-based pipeline to process PDFs:
 - Docker
 - Python 3.9+ (tested on 3.9/3.10)
 - CPU only
-- No Internet required
+
 
 ### 2. **Build the Docker Image**
 
@@ -124,7 +127,7 @@ Adobe_1A/
   Checks for consistency, removes false positives, and outputs final JSON.
 
 - **AdvancedTitleClassifier**  
-  Used for documents with clear title structures (e.g., academic papers, paragraph titles, doc titles, table titles).
+  Used for documents with clear title structures (having elements labeled by model as doc_title, paragraph_title, table_title).
 
 ---
 
@@ -135,28 +138,27 @@ Each processed PDF produces a JSON file with a hierarchical outline, including h
 Example:
 
 ```json
-[
-  {
-    "level": 1,
-    "title": "Introduction",
-    "children": [
-      {
-        "level": 2,
-        "title": "Background",
-        "children": []
-      }
-    ]
-  }
-]
+{
+  "title": "Overview",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "Foundation Level Extensions",
+      "page": 1
+    },
+  ]
+}
 ```
 
 ---
+
+
 
 ## 🛠️ Troubleshooting
 
 - Ensure all PDFs are placed in `/app/input`.
 - If output JSONs are missing, check logs for errors in model inference or agent processing.
-- The pipeline expects model outputs (`*_all_elements_results.json`) for each PDF.
+- The pipeline expects model outputs (`*{file_name}_all_elements_results.json`) for each PDF.
 
 ---
 
