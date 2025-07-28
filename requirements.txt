@@ -13,3 +13,6 @@ Pillow
 paddlex
 PyMuPDF
 paddlepaddle
+# onnx
+# onnxruntime>=1.16.0
+# paddle2onnx>=1.0.5

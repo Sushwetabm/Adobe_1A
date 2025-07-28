@@ -22,6 +22,7 @@ def get_shared_model():
         print("🔧 Loading layout detection model...")
         _model_instance = LayoutDetection(model_name="PP-DocLayout-L")
 
+
     return _model_instance
 
 def _init_worker():
@@ -225,9 +226,12 @@ class FastPDFProcessor:
         print("⚡ Starting dual output processing...")
         start_time = datetime.now()
 
+        os.makedirs(output_dir, exist_ok=True)
+        print(f"📁 Created/verified output directory lalalalalalalla: {output_dir}")
+
         # Step 1: Convert PDF to images (keep sequential - it's fast)
         image_paths, pdf_doc = self.convert_pdf_to_images_fast(pdf_path, dpi=dpi)
-        os.makedirs(output_dir, exist_ok=True)
+        
 
         # Step 2: Parallel AI processing (ONLY change from original)
         layout_results = self.process_images_simple_parallel(image_paths)
@@ -286,6 +290,8 @@ class FastPDFProcessor:
 
         all_elements_file = os.path.join(output_dir, f"{pdf_filename}_all_elements_results.json")
         titles_only_file = os.path.join(output_dir, f"{pdf_filename}_titles_only_results.json")
+
+        
 
         with open(all_elements_file, "w", encoding="utf-8") as f:
             json.dump(final_all_elements, f, indent=2, ensure_ascii=False)
